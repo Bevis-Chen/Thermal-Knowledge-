@@ -1,0 +1,12 @@
+「我終於搞懂 PQ Curve、System Impedance 與 Working Point 了」
+-前言
+來自chatgpt的想法. 協助我整合以及輸出所思所學關於熱流知識的部分. 本篇更專注於PQ CURVE, SYSTEM IMPEDANCE, WORKING POINT等知識使用. 
+-大綱
+應該是沒有吧，先寫個卡位.
+-內容
+各種天花亂墜.
+
+-結語
+終於完成以及胡說八道.
+-參考資訊
+如果有的話.
