@@ -7,6 +7,12 @@
 各種天花亂墜.
 好的首先，PQ curve
 
+我一開始接觸PQ Curve 來自伺服器風扇的Data sheet. 本來知道說風扇的PQ Curve以及系統阻抗SYSTEM Impednace有關. 所以特地發表有關我所認知的知識. PQ Curve是來自風洞對於風扇單體測試的數據. (可能設定條件25度C環溫以及濕度60%) PQ Curve就
+
+
+
+
+
 -結語
 終於完成以及胡說八道.
 -參考資訊
