@@ -21,7 +21,9 @@
 ?! 還有Data Center .現在都是單一機台. 某種程度就是耍無賴. 當然以前的人也沒那麼大量買機台
 （當然大公司就不一定，可是以前的晶片瓦數也沒那麼熱） 我意思是Data Center 空氣就那麼多、應該解熱效果未必有單機的測試結果. 
 當然啦還要考慮單機測試環境： chamber, working chamber, lab...
-?? 同樣都是NVQUAL, 為什麼INTEL-PTAT跟AMD-AVT 要合操、結果INTEL-PTAT 勉強讓NVQUAL
+?? 同樣都是NVQUAL, 為什麼INTEL-PTAT跟AMD-AVT 要合操、結果INTEL-PTAT 勉強讓NVQUAL 跑完(雖然看起來是CPU有分出資源)
+但是AMD AVT 會讓NVQUAL跑不起來. 看起來像是AVT吃滿整個資源.
+
 
 
 
