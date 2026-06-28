@@ -23,12 +23,41 @@
 當然啦還要考慮單機測試環境： chamber, working chamber, lab...
 ?? 同樣都是NVQUAL, 為什麼INTEL-PTAT跟AMD-AVT 要合操、結果INTEL-PTAT 勉強讓NVQUAL 跑完(雖然看起來是CPU有分出資源)
 但是AMD AVT 會讓NVQUAL跑不起來. 看起來像是AVT吃滿整個資源.
-
-
-
-
-
 ?? 1. 風洞如何建立？ / 2. PQ Curve 為什麼一定要實測？ 3. CFD 是否能取代風洞？4. AMCA 標準是什麼？
 
 
+
+
+
+Thermal-Knowledge
+│
+├── 01 Fundamentals（基礎）
+│   ├── Heat Transfer
+│   ├── Thermodynamics
+│   ├── Fluid Mechanics
+│   └── Thermal Resistance
+│
+├── 02 Fan
+│   ├── PQ Curve
+│   ├── Fan Law
+│   ├── Fan Duty
+│   └── Fan Selection
+│
+├── 03 CFD
+│   ├── Mesh
+│   ├── Boundary Condition
+│   ├── Turbulence
+│   └── Correlation
+│
+├── 04 Server
+│   ├── GPU Cooling
+│   ├── NIC Cooling
+│   ├── Air Duct
+│   └── Wind Tunnel
+│
+└── 05 Case Study
+    ├── 我終於搞懂 PQ Curve
+    ├── 我終於知道 Datasheet Airflow
+    ├── CFD 如何驗證
+    └── Fan Duty 怎麼調
 
