@@ -25,7 +25,13 @@
 但是AMD AVT 會讓NVQUAL跑不起來. 看起來像是AVT吃滿整個資源.
 ?? 1. 風洞如何建立？ / 2. PQ Curve 為什麼一定要實測？ 3. CFD 是否能取代風洞？4. AMCA 標準是什麼？
 
-
+我終於搞懂 PQ Curve、System Impedance 與 Working Point 了
+我終於知道 Datasheet 為什麼要寫 Minimum Airflow
+我終於知道 CFD 到底在算什麼
+我終於知道 Wind Tunnel 在驗證什麼
+我終於知道 Fan Duty 為什麼不能亂調
+我終於知道 Heatsink Fin 為什麼不是越密越好
+我終於知道 Thermal Resistance 到底是什麼
 
 
 
