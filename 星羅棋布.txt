@@ -33,6 +33,7 @@
 
 fio 相關文件
 ** https://fio.readthedocs.io/en/latest/fio_doc.html
+** https://blog.csdn.net/pansaky/article/details/83689110
 
 我終於搞懂 PQ Curve、System Impedance 與 Working Point 了
 我終於知道 Datasheet 為什麼要寫 Minimum Airflow
