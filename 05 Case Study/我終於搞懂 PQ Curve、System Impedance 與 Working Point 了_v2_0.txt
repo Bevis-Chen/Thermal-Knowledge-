@@ -29,7 +29,7 @@ PQ Curve 的真正意義
 
 
 
-System Impedance
+System Resistance
   為什麼系統阻抗會隨流量增加而快速上升
   為什麼常常近似為二次方關係
 Working Point
@@ -51,6 +51,11 @@ https://www.mobile01.com/topicdetail.php?f=502&t=6622102
 https://www.orientalmotor.com.tw/tw-zh/tech/eng-note/vol47
 https://medium.com/%E5%AF%B6%E9%BA%97%E9%9B%BB%E5%AD%90/%E6%8E%A2%E7%B4%A2%E9%A2%A8%E6%89%87%E7%89%B9%E6%80%A7%E6%9B%B2%E7%B7%9Ap-q%E4%B8%AD%E9%9D%9C%E5%A3%93%E7%9A%84%E7%A7%98%E5%AF%86-ab6becbd6359
 https://www.techchickensoup.com/technology/fan-curve-intro/
+
+系統阻抗
+https://techcompass.sanyodenki.com/zh-CHT/training/cooling/fan_basic/007/index.html
+https://www.rotron.com/tech-corn/understanding-your-system-resistance
+
 參考 以上網址. 
 =================================
 靜壓參考資訊(FROM AI)
@@ -63,5 +68,27 @@ https://www.techchickensoup.com/technology/fan-curve-intro/
 2. 靜壓與風量的關係在散熱風扇或工業風機中，風量（推動空氣的體積）與靜壓是一體兩面的特性：
   靜壓增加  → 風量下降（例如：在風道上加裝厚重的HEPA濾網，風阻變大，靜壓需求升高，導致出風量減少）。
   選型建議：若系統管路長、阻力大，需優先選擇高靜壓風扇；若無阻礙的通風散熱，則需大風量風扇。可利用 台灣東方馬達風扇特性指南 查看完整的特性圖表。
+=================================
+1. System Resistance (系統阻抗/阻力) —— 散熱與流體物理領域：流體力學、熱傳學。定義：流體（空氣、水）通過固體結構（鰭片、濾網、機殼）時，因為摩擦力和幾何形狀改變所產生的壓力損失。特性：它與風量的平方成正比，是不隨時間週期性變化的純阻力。2. System Impedance (系統阻抗) —— 電路與聲學物理領域：電磁學、電路學、聲學。定義：對交流電（AC）或聲波產生的總阻抗，包含了電阻 (Resistance)、電感與電容。特性：它包含「虛部」（會隨著頻率改變），通常用於訊號傳輸、喇叭聲學、供電網路 (PDN) 或是人體生物阻抗。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
