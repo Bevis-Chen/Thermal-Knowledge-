@@ -55,6 +55,7 @@ https://www.techchickensoup.com/technology/fan-curve-intro/
 系統阻抗
 https://techcompass.sanyodenki.com/zh-CHT/training/cooling/fan_basic/007/index.html
 https://www.rotron.com/tech-corn/understanding-your-system-resistance
+https://www.linkedin.com/pulse/basics-fan-performance-tables-curves-system-resistance-rg4yc
 
 參考 以上網址. 
 =================================
