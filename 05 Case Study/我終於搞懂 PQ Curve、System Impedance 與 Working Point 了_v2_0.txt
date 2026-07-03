@@ -37,6 +37,8 @@ Working Point
   為什麼那才是真正工作的 CFM
 實際應用
   Fan Duty 改變
+對風扇來說，流量增加了
+但是對系統的component來說,阻抗也增加了了
   換風扇
   加 Air Duct
   System Resistance 改善
