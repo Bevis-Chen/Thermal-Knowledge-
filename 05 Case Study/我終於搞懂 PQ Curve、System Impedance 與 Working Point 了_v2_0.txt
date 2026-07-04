@@ -65,6 +65,15 @@ https://techcompass.sanyodenki.com/zh-CHT/training/cooling/fan_basic/007/index.h
 https://www.rotron.com/tech-corn/understanding-your-system-resistance
 https://www.linkedin.com/pulse/basics-fan-performance-tables-curves-system-resistance-rg4yc
 
+https://www.amca.org/assets/resources/public/assets/uploads/FINAL--_Fan_and_System_Curves_with_FEI_1.pdf
+https://www.amca.org/assets/resources/public/2024%20AHR%20Expo%20presentations/04.-fan-and-system-curves-with-fan-energy-index-(fei),-part-1-of-2.pdf
+https://www.qats.com/cms/2013/07/24/how-to-use-fan-curves-and-laws-in-thermal-design/
+
+
+
+
+
+
 參考 以上網址. 
 =================================
 靜壓參考資訊(FROM AI)
