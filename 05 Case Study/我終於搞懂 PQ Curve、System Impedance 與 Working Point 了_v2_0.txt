@@ -8,6 +8,10 @@ PQ Curve 的真正意義
 
 那就需要進一步研究其他要素了.這時候PQ-CURVE就會是最終、或者其實是一開始應該要研究的因素.
 一個風扇的PQ-CURVE多半顯示他的能力曲線--不同阻抗之下風扇能夠吹出多少風量. 
+https://www.amca.org/assets/resources/public/assets/uploads/FINAL--_Fan_and_System_Curves_with_FEI_1.pdf
+從AMCA文章知道, PQ 曲線從左上到右下、不規則曲線，分成三個部分. 當P極大以及Q在工作點之前，風扇承受大的壓力導致本體震動、甚至風扇本身損壞. 
+可以想像風扇抽取或是吹出氣流但是有一股推力在對抗甚至壓過風扇產生的氣流。
+
 在最大靜壓Pmax的時候流量等於多少、在P=0的時候流量又能夠多大.(當然、在伺服器的風扇前後、應該很難沒有風阻.也就是伺服器內部的元件零件了.)
 當風扇透過風洞量測過後得到PQ-CURVE曲線,這時候發現要怎麼使用呢?
 首先風扇不可能在每個不同環境阻抗下吹出相同的風量、甚或是風扇前面的擋板大小一樣的情況下，擋板距離風扇不同距離產生的風阻也不盡相同. 
@@ -67,6 +71,7 @@ https://www.linkedin.com/pulse/basics-fan-performance-tables-curves-system-resis
 
 https://www.amca.org/assets/resources/public/assets/uploads/FINAL--_Fan_and_System_Curves_with_FEI_1.pdf
 https://www.amca.org/assets/resources/public/2024%20AHR%20Expo%20presentations/04.-fan-and-system-curves-with-fan-energy-index-(fei),-part-1-of-2.pdf
+https://www.amca.org/assets/resources/public/2024%20AHR%20Expo%20presentations/05.-fan-and-system-curves-with-fan-energy-index-(fei),-part-2-of-2.pdf
 https://www.qats.com/cms/2013/07/24/how-to-use-fan-curves-and-laws-in-thermal-design/
 
 
