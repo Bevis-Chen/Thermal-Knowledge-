@@ -15,6 +15,12 @@ https://www.amca.org/assets/resources/public/assets/uploads/FINAL--_Fan_and_Syst
 若風扇運作在PQ曲線的工作點之後、以及Q流量趨近最大. 此時風扇不會有Surge zone的風扇本體震動危害、
 而是失速區（Stall Zone）.  此風扇的噪音增加以及效率降低.
 
+來自https://coolinghouse.com/thermal-knowledge/fan-pq-curve/?lang=zh-hant ，裡面提到
+風量是單位時間內通過出風面的氣體總量，
+PQ曲線終點的最大風量是指無任何阻抗的情況下，風扇能提供的最大風量。
+PQ 圖縱軸的靜壓，是風扇能提供的對抗阻力能力；最大靜壓，是指在全封閉的通道，量測到的風壓。
+
+所以其實重點是壓力、也就是阻抗. PQ曲線充分說明一顆風扇遇到多少壓力能夠產生多少氣流或風量.
 
 在最大靜壓Pmax的時候流量等於多少、在P=0的時候流量又能夠多大.(當然、在伺服器的風扇前後、應該很難沒有風阻.也就是伺服器內部的元件零件了.)
 當風扇透過風洞量測過後得到PQ-CURVE曲線,這時候發現要怎麼使用呢?
