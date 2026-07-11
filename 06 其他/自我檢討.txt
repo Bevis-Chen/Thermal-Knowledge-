@@ -7,7 +7,22 @@
   - 定SPEC >> 一樣. 高層或主管.
   - 有個 整機 placement 的構想
   - 劃定 schedule
-
+  - 理論上有個 模擬 結果
+  - mock-up 機 >>有個不開機系統裝CPU-TTV 實測CPU可以到多少溫度、可以推估跟設計HEATSINK要設計多少?
+EVT 工程驗證測試
+  - 大概率要debug 能不能開機>>系統firmware、硬件CPU/DIMM/SSD/GPU/CARD等等進入實測支援程度
+  - 最好測個整機風洞>> 可以知道系統有多少流量.
+  - 風扇跟heatsink 的確認 : 單體風洞測試 一下
+  - 導風罩或其他solution
+DVT Design Verification Test 設計驗證測試
+  - 理論上 接近成品 >> 必須要可以開機了
+  - 因為 EVT可能設計導風罩、或者有EVT時候有別於開案的設計變更. 
+  - 這個階段做總體測試
+  - 我還是不懂TEST PLAN
+  - 應該是劃定測什麼跟測多久
+  - 再測個風洞 >> 看最後吹出多少流量跟阻抗. 跟熱測試結果對比.
+PVT & MP
+  - 不用再測試了啦. 除非DVT有什麼重大設變.
 
 
 
