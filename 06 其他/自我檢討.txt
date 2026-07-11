@@ -8,9 +8,10 @@
 開案
   - 有個 整機 placement 的構想
     - thermal architecture >> 氣冷或是那些需要水冷
-  - 劃定 schedule
-  - 模擬 結果
-  - mock-up 機 >>有個不開機系統裝CPU-TTV 實測CPU可以到多少溫度、可以推估跟設計HEATSINK要設計多少?
+  - 劃定 schedule >> 劃定EVT以及DVT 3~4周
+  - 模擬 結果 比對當初開案前發想的結果還差多少. 在EVT具體驗證. 
+  - mock-up 機 >>
+    - 有個不開機系統裝CPU-TTV 實測CPU可以到多少溫度、可以推估跟設計HEATSINK要設計多少?
 EVT 工程驗證測試
   - 大概率要debug 能不能開機>>系統firmware、硬件CPU/DIMM/SSD/GPU/CARD等等進入實測支援程度
   - 最好測個整機風洞>> 可以知道系統有多少流量.
