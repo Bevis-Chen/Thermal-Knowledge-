@@ -1,13 +1,15 @@
 伺服器 專案 thermal 運作之我見
 
 開案前  
-  - 發想 (高層...)
+  - 發想 / study  (高層...)
+  - 沿用? >> channel 案
   - 客戶條件
+  - 定SPEC >> 初步規劃要塞多少東西或有多少發熱元 (高層或主管)
 開案
-  - 定SPEC >> 一樣. 高層或主管.
   - 有個 整機 placement 的構想
+    - thermal architecture >> 氣冷或是那些需要水冷
   - 劃定 schedule
-  - 理論上有個 模擬 結果
+  - 模擬 結果
   - mock-up 機 >>有個不開機系統裝CPU-TTV 實測CPU可以到多少溫度、可以推估跟設計HEATSINK要設計多少?
 EVT 工程驗證測試
   - 大概率要debug 能不能開機>>系統firmware、硬件CPU/DIMM/SSD/GPU/CARD等等進入實測支援程度
