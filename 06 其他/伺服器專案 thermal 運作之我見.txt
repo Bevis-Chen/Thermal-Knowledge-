@@ -34,9 +34,15 @@ DVT Design Verification Test 設計驗證測試
   - 我還是不懂TEST PLAN
   - 應該是劃定測什麼跟測多久
   - 再測個風洞 >> 看最後吹出多少流量跟阻抗. 跟熱測試結果對比.
-PVT & MP
-  - 不用再測試了啦. 除非DVT有什麼重大設變.
+PVT production validation test
+  - 驗證製成上的驗證測試 >> 這個我沒經歷過. 應該是試產?
+  - 如果DVT有什麼重大設計變更(比如DVT的solution、或是電路線路甚至晶片有特殊變化/更高瓦數)
+  - 單機測試比較少. 
+MP mass production
   - 其實我沒有經歷過XDD
+  - 其實GPT有說這個階段要看大量生產: 
+    總不能單機測試CPU可以支援500W/88度、大量生產測試(柯南測試軟體?/或其他用於大量生產的軟體 / BIOS寫的TOOL)
+    整櫃的系統測試發現過不了(蠻有可能的、互相搶風>> 所以我會以此認定thermal buffer盡量抓5度以上 / 1~3度的裕度就算PASS的真是太勇敢了)
 
 
 
