@@ -4,10 +4,21 @@
 把這些認知輸出在文字上供你我參考.
 ***
 
+專案開發到工廠生產之流程:
+
 開案前  
   - 發想 / study  (高層...)
-  - 沿用 >> channel 案
-  - 客戶條件
+  - OEM(Original Equipment Manufacturer)
+    ODM(Original Design Manufacturer)
+    OBM(Own Brand Manufacturer)
+    ref: https://vocus.cc/article/646c1cd7fd89780001b2a2b1
+    ref: https://zhuanlan.zhihu.com/p/1962083772678772460
+    ref: https://seller.alibaba.com/tw/blogs/oem-odm-obm-differences
+    OEM >> 完全客戶品牌
+    OBM >> 白牌/自由品牌，企業自主開發但未必自己生產.
+    ODM >> OBM商品"貼牌"變成客戶商品. 
+  - 承上. ODM/OBM專案的開發最初、沿用機構外型以及搭配最新的晶片還有外接卡等.
+  - OEM需遵循客戶條件. 
   - 定SPEC >> 初步規劃要塞多少東西或有多少發熱元 (高層或主管)
 開案
   - 有個 整機 placement 的構想
