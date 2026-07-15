@@ -30,6 +30,8 @@
 但是AMD AVT 會讓NVQUAL跑不起來. 看起來像是AVT吃滿整個資源.
 ?? 1. 風洞如何建立？ / 2. PQ Curve 為什麼一定要實測？ 3. CFD 是否能取代風洞？4. AMCA 標準是什麼？
 ?? 如果 風扇一直 上下飄動???
+?? 如果8U的中繼板孔開得比較少、那麼形成壓力差的邏輯上更應該抽得到風??
+
 
 fio 相關文件
 ** https://fio.readthedocs.io/en/latest/fio_doc.html
