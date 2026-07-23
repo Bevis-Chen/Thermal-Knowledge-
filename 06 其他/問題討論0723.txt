@@ -1,0 +1,68 @@
+Q: 壓力計得出靜壓
+A:
+利用壓力計量測管道或流體系統中的靜壓（Static Pressure）時，核心關鍵在於測壓孔垂直於流體流動方向，以避免動壓干擾。
+## 測量原理與方法
+
+* 垂直開孔：在管道壁上平整鑽一小孔，使測壓管內壁與管壁齊平，不干擾氣流或液流。
+* 連接壓力計：將微壓計或U型管壓力計的正壓端接至管壁測壓孔，負壓端通大氣（測相對靜壓）或接另一測點（測差壓）。
+* 讀數意義：此時測得的壓力是流體分子垂直撞擊管壁的力，反映系統內部阻力或壓力大、小狀態。 [1, 2] 
+
+## 注意事項
+
+* 避免位置誤差：切勿將測壓點設在管道彎頭、閥門或風機出口的急遽擾動區，應選在直管段（通常要求上游有5-10倍管徑、下游有2-3倍管徑的直線距離）。
+* 區分全壓與動壓：若使用形如皮托管（Pitot tube）的儀器，正面迎風測得的是全壓，側邊或分離孔測得的才是靜壓。
+
+如果你想進一步應用這些數據，請告訴我：
+
+* 你是在測量空調風管（HVAC）還是液壓/水管系統？
+* 你目前使用的是哪一種壓力計設備？
+
+我可以幫你計算系統阻力或評估風機/水泵的運作狀態。
+
+[1] [https://re-atlantis.tw](https://re-atlantis.tw/zh-hant/pressure-measurement-fluid-mechanics-complete-guide)
+[2] [https://www.eurolab.net](https://www.eurolab.net/zh-TW/testler/urun-guvenlik-testleri/statik-basinc-testi/)
+***
+Q:我就只想知道風扇的PQ的靜壓是怎麼測出來的
+A:
+風扇 PQ 曲線上的靜壓，是透過專業的風洞測試儀器（Airflow Test Chamber），在嚴格符合國際標準（如 [AMCA 210](https://orionfans.com/pq-curve/) 或 ISO 5801）的密閉腔體中測量出來的。 [1, 2] 
+簡單來說，它是透過「人為改變排氣阻力，並量測密閉腔體內的氣壓變化」來取得整條曲線的。 [2, 3] 
+------------------------------
+## PQ 靜壓測試的具體步驟
+
+   1. 安裝風扇：
+   將待測風扇緊密固定在風洞（測試腔體）的一端入口或出口，確保銜接處完全不漏氣。
+   2. 設置測壓孔：
+   在風洞腔體的壁面上，鑽出與氣流完全垂直的測壓孔，並連接微壓計（Manometer）。這時測得的，就是腔體內的靜壓（P）。
+   3. 逐步調節排氣閥門（阻抗）：
+   測試人員會透過風洞末端的輔助風機或可變閥門（Dampers / Orifice），手動或由電腦控制來改變空氣流通的阻力。 [2, 4, 5, 6, 7, 8, 9] 
+
+------------------------------
+## 如何記錄兩大極限端點與中間數值？
+測試過程中，系統會從「阻力最大」一路測到「完全無阻力」，藉此記錄整條 PQ 曲線：
+
+* 
+* 量測「最大靜壓」（Max Static Pressure, Q = 0）：
+將風洞的排氣出口完全關閉（全密閉）。風扇雖然在轉，但此時風量（Q）為 0，此時風扇拼命將空氣打入腔體所累積的最高內部壓力，就是規格表上的「最大靜壓值」。 [5, 10, 11, 12] 
+* 量測「中間操作點」（PQ 曲線的弧線）：
+將排氣出口稍微打開一個小縫，空氣開始流動。此時流量計（如噴嘴 Nozzle）會測出一個風量值 Q₁，同時腔體壁面的微壓計會測出一個對應降低的靜壓值 P₁。接著，閥門再開大一點，測出 Q₂ 與 P₂，以此類推。 [2, 4, 13] 
+* 量測「最大風量」（Max Airflow, P = 0）：
+當把風洞的所有閥門完全全開，且透過風洞的輔助風機把風洞內部阻力完全抵消（靜壓歸零）時，此時測得的純粹空氣流速，就是「最大風量」。 [5] 
+* 
+
+把上述在不同閥門開度下測得的無數組「靜壓（P）與風量（Q）」點連成一線，就成了你所看到的風扇 PQ 曲線圖。 [5, 8] 
+如果你對測量設備感興趣，我們可以進一步聊聊「多噴嘴式風洞」的結構，或者討論如何利用這張 PQ 曲線去找出你系統的實際工作點。 [4, 13] 
+
+[1] [https://www.adda.com.tw](https://www.adda.com.tw/download_detail/5/)
+[2] [https://orionfans.com](https://orionfans.com/pq-curve/)
+[3] [https://www.eevblog.com](https://www.eevblog.com/forum/projects/how-are-fan-static-pressure-measured/)
+[4] [https://www.adda.com.tw](https://www.adda.com.tw/en/download_detail/12/)
+[5] [https://www.techchickensoup.com](https://www.techchickensoup.com/technology/fan-curve-intro/)
+[6] [https://www.proventofan.com](https://www.proventofan.com/fan-static-pressure-explained/)
+[7] [https://hyojunka.jbmia.or.jp](https://hyojunka.jbmia.or.jp/hyojun2/upload-v3/archive/JBMS-72-1-1.pdf)
+[8] [https://orionfans.com](https://orionfans.com/pq-curve/)
+[9] [https://dstal.com.au](https://dstal.com.au/wp-content/uploads/2020/01/07-18-HVAC-Skills-Workshop.pdf)
+[10] [https://www.scribd.com](https://www.scribd.com/document/767830579/%E9%A2%A8%E6%89%87%E6%80%A7%E8%83%BD%E6%9B%B2%E7%B7%9A%E9%A2%A8%E6%B4%9E%E6%B8%AC%E8%A9%A6%E5%AF%A6%E9%A9%97%E5%A0%B1%E5%91%8A-%E7%AC%AC6%E7%B5%84-1)
+[11] [https://coolinghouse.com](http://coolinghouse.com/thermal-knowledge/fan-p-q-curve/)
+[12] [https://hwbusters.com](https://hwbusters.com/cooling/fan-testing-methodology-basic-terms/)
+[13] [https://coolinghouse.com](http://coolinghouse.com/thermal-knowledge/fan-pq-curve/?lang=zh-hant)
+
