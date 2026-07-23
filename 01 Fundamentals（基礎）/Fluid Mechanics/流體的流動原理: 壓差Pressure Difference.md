@@ -70,7 +70,7 @@
   - 形成連續流動
 ***
 
-<img width="1024" height="559" alt="dcf265f2-5e0b-4e36-850d-d37d4a96b75e" src="https://github.com/user-attachments/assets/8a435cd2-41cc-4914-bcbf-b6dcd847a9a9" />
+<img width="640" height="360" alt="dcf265f2-5e0b-4e36-850d-d37d4a96b75e" src="https://github.com/user-attachments/assets/8a435cd2-41cc-4914-bcbf-b6dcd847a9a9" />
 
 ***
 > 圖: 在流體裡面、因為兩側壓力不同 (P1 > P2)，而存在壓力差. 流場流線形成壓力梯度，淨力不為0使得流體微元們有了加速度. 最後流體流動 
