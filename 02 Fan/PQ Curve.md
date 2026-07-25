@@ -109,6 +109,8 @@ Bernoulli's principle，Bernoulli's Law來自瑞士流體物理學家丹尼爾·
 PQ曲線終點的最大風量是指無任何阻抗的情況下，風扇能提供的最大風量。
 PQ 圖縱軸的靜壓，是風扇能提供的對抗阻力能力；最大靜壓，是指在全封閉的通道，量測到的風壓。
 [4] https://zh.wikipedia.org/zh-tw/%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%AE%9A%E5%BE%8B
+[5] 3M白努利原理為什麼乒乓球會懸浮在空氣柱裡，即使空氣柱傾斜，球也不會掉下來呢？
+https://www.3m.com.tw/3M/zh_TW/company-tw/latest-event/science-at-home/bernoulli-principle-experiment/
 
 
 
