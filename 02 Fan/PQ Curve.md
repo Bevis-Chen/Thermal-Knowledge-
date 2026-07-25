@@ -88,6 +88,11 @@ Bernoulli's principle，Bernoulli's Law來自瑞士流體物理學家丹尼爾·
 
 
 
+**PQ Cureve理解與應用**
+
+當我們理解了靜壓是什麼，也順便理解了伯努利定律的原理。 我們來回過頭看PQ curve、這個以P(靜壓)為Y軸，以Q(流量)為X軸且由左上到右下的不規則曲線。
+
+
 
 
 ***
