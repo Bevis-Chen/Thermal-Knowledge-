@@ -47,6 +47,7 @@ PQ Curve則是風扇可以提供多少靜壓、同時又可以提供多少流量
 **伯努利定律**
 
 Bernoulli's principle，Bernoulli's Law來自瑞士流體物理學家丹尼爾·白努利於1738年出版他的理論《Hydrodynamica》，描述流體沿著一條穩定、非黏性、不可壓縮的流線移動行為。[4]
+伯努利定律的內容是: P＋1/2ρμ²＋mgh＝const (P：壓力 ρ：液體密度 μ：流速 m：物體質量 g：重力加速度)
 
 
 
@@ -70,19 +71,19 @@ Bernoulli's principle，Bernoulli's Law來自瑞士流體物理學家丹尼爾·
 ***
 **參考資料**
 
-[1]壓差 https://github.com/Bevis-Chen/Thermal-Knowledge-/blob/main/01%20Fundamentals%EF%BC%88%E5%9F%BA%E7%A4%8E%EF%BC%89/Fluid%20Mechanics/%E6%B5%81%E9%AB%94%E7%9A%84%E6%B5%81%E5%8B%95%E5%8E%9F%E7%90%86%E8%88%87%E5%A3%93%E5%B7%AEPressure%20Difference.md
-[2]https://www.amca.org/assets/resources/public/assets/uploads/FINAL--_Fan_and_System_Curves_with_FEI_1.pdf
-從AMCA文章知道, PQ 曲線從左上到右下、不規則曲線，分成三個部分. 當P極大以及Q在工作點之前、此時為「Surge zone」（喘振區），風扇承受大的壓力導致本體震動、甚至風扇本身損壞. 
+[1] **壓差** https://github.com/Bevis-Chen/Thermal-Knowledge-/blob/main/01%20Fundamentals%EF%BC%88%E5%9F%BA%E7%A4%8E%EF%BC%89/Fluid%20Mechanics/%E6%B5%81%E9%AB%94%E7%9A%84%E6%B5%81%E5%8B%95%E5%8E%9F%E7%90%86%E8%88%87%E5%A3%93%E5%B7%AEPressure%20Difference.md
+[2] **從AMCA文章知道, PQ 曲線從左上到右下、不規則曲線，分成三個部分. 當P極大以及Q在工作點之前、此時為「Surge zone」（喘振區），風扇承受大的壓力導致本體震動、甚至風扇本身損壞. 
 可以想像風扇抽取或是吹出氣流但是有一股推力在對抗甚至壓過風扇產生的氣流。
 若風扇運作在PQ曲線的工作點之後、以及Q流量趨近最大. 此時風扇不會有Surge zone的風扇本體震動危害、
-而是失速區（Stall Zone）.  此風扇的噪音增加以及效率降低.
-[3]來自https://coolinghouse.com/thermal-knowledge/fan-pq-curve/?lang=zh-hant ，裡面提到
-風量是單位時間內通過出風面的氣體總量，
-PQ曲線終點的最大風量是指無任何阻抗的情況下，風扇能提供的最大風量。
+而是失速區（Stall Zone）.  此風扇的噪音增加以及效率降低.**
+https://www.amca.org/assets/resources/public/assets/uploads/FINAL--_Fan_and_System_Curves_with_FEI_1.pdf
+[3] **...風量是單位時間內通過出風面的氣體總量，
+PQ曲線終點的最大風量是指無任何阻抗的情況下，風扇能提供的最大風量。...**
+https://coolinghouse.com/thermal-knowledge/fan-pq-curve/?lang=zh-hant
 PQ 圖縱軸的靜壓，是風扇能提供的對抗阻力能力；最大靜壓，是指在全封閉的通道，量測到的風壓。
-[4] https://zh.wikipedia.org/zh-tw/%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%AE%9A%E5%BE%8B
-[5] 3M白努利原理為什麼乒乓球會懸浮在空氣柱裡，即使空氣柱傾斜，球也不會掉下來呢？
+[4] **白努利定律-維基百科** https://zh.wikipedia.org/zh-tw/%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%AE%9A%E5%BE%8B
+[5] **3M白努利原理為什麼乒乓球會懸浮在空氣柱裡，即使空氣柱傾斜，球也不會掉下來呢？**
 https://www.3m.com.tw/3M/zh_TW/company-tw/latest-event/science-at-home/bernoulli-principle-experiment/
-
+[6] **伯努利原理在運動技術運用之探討** https://ir.nptu.edu.tw/retrieve/6982/p136-141.pdf
 
 
