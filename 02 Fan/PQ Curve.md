@@ -29,8 +29,7 @@ Bernoulli's principle，Bernoulli's Law來自瑞士流體物理學家丹尼爾·
 
 當我們理解了靜壓是什麼，透過伯努利定律的原理更加了解了流體的流動存在著靜壓以及動壓的變化。 
 我們來回過頭看PQ curve、這個以P(靜壓)為Y軸，以Q(流量)為X軸且由左上到右下的不規則曲線。
-PQ Curve 是風扇在固定轉速或固定PWM Duty，風扇能夠在建立不同靜壓下能夠輸出多少流量得關係。
-但是風扇是因為什麼而建立多少靜壓，是需要知道系統阻抗來決定。也就是因為有多少系統阻抗(可能是GPU卡，可能是CPU散熱HEATSINK)、決定了風扇需要建立多少靜壓，風扇則是依照PQ Curve 對於該靜壓輸出一個流量值。
+PQ Curve 是風扇在固定轉速或固定PWM Duty之下，風扇的建立靜壓以及流量的性能曲線。 但是風扇是因為什麼而建立多少靜壓，是需要知道系統阻抗來決定。也就是因為有多少系統阻抗(可能是GPU卡，可能是CPU散熱HEATSINK)、決定了風扇需要建立多少靜壓，風扇則是依照PQ Curve 對於該靜壓輸出對應流量。
 ```
 Static Pressure
 ↑
@@ -83,11 +82,7 @@ https://www.3m.com.tw/3M/zh_TW/company-tw/latest-event/science-at-home/bernoulli
 
 [7] **如何讀懂風扇 P-Q 曲線：靜壓 vs 風量的工程實務指南**  https://www.max-flow.com/zh/guides/how-to-read-fan-pq-curve.html
 
-***
-PQ Curve 的真正意義
-- 為什麼不是「風扇一定吹得到的流量」
-- 而是風扇本身的能力曲線
-- 壓差才造成 風流?
+
 ***
 說風扇提供壓力、其實還是類似指流量，只是換湯不換藥。
 說是壓力，其實是靜壓、就是指空氣自由流動無外力以及其他能量增加之前的自由度。
