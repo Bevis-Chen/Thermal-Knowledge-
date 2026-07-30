@@ -27,11 +27,14 @@ pm me ee si sit fae sales bdm marketing
   - 定SPEC >> 初步規劃要塞多少東西或有多少發熱元 (高層或主管)
   - 有個 整機 placement 的構想: thermal architecture >> 氣冷或是那些需要水冷
 開案    
-  - 劃定 schedule >> 劃定EVT以及DVT 多少周
+  - Kick off meeting 開起來    
+  - 劃定 schedule >> 初步劃定EVT以及DVT 多少周
   - 準備以及初步 跑模擬以及輸出結果 : 
     比對當初開案前發想的結果還差多少. 
     檢驗是否此專案構想可不可行.
     在EVT具體進一步驗證. 
+  - Gerber Out : 電路板（PCB）設計完成後，將佈線圖轉化為工廠生產所需標準檔案的最後步驟
+    - 開個會議 : thermal熱流 / EE電子電路 / ME機構 / SI系統組裝 / PM專案控管 / LAYOUT電路排整 
   - mock-up 機 >>
     - 有個不開機系統裝CPU-TTV 實測CPU可以到多少溫度、
     - 可以推估跟設計HEATSINK要設計多少?
@@ -39,6 +42,7 @@ pm me ee si sit fae sales bdm marketing
 EVT 工程驗證測試 "第一個真正可以驗證設計假設的時候。"
   - 驗證 跟 開案構想以及模擬的結果差多少
     - 大概率要debug 能不能開機>>系統firmware、硬件CPU/DIMM/SSD/GPU/CARD等等進入實測支援程度
+  - 熱電偶黏貼 + Kapton 膠帶
   - 最好測個整機風洞>> 可以知道系統有多少流量.
   - 風扇跟heatsink 的確認 : 單體風洞測試 一下
   - 導風罩或其他solution
