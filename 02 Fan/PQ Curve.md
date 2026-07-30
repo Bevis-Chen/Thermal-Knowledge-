@@ -32,8 +32,6 @@ Bernoulli's principle，Bernoulli's Law來自瑞士流體物理學家丹尼爾·
 PQ Curve 是風扇在固定轉速或固定PWM Duty，風扇能夠在建立不同靜壓下能夠輸出多少流量得關係。
 但是風扇是因為什麼而建立多少靜壓，是需要知道系統阻抗來決定。也就是因為有多少系統阻抗(可能是GPU卡，可能是CPU散熱HEATSINK)、決定了風扇需要建立多少靜壓，風扇則是依照PQ Curve 對於該靜壓輸出一個流量值。
 
-***
-
 Static Pressure
 ↑
 │
@@ -47,7 +45,6 @@ Static Pressure
 │             *
 └───────────────●──── → Flow Rate
                Qmax (Free Air)
-***
 
 如何得到PQ 曲線呢? 大多是建立風洞系統將風扇安裝在風洞的入風口進行測量，而不是模擬或推算的。 尤其當實測下，還會量測每10duty(或者依據需要調整，5 duty或特殊duty)的風扇PQ曲線。
 
