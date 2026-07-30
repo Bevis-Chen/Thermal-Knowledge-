@@ -35,8 +35,9 @@ PQ Curve 是風扇在固定轉速或固定PWM Duty，風扇能夠在建立不同
 ***
 
 Static Pressure
- ↑
-│● Pmax  (Blocked)
+↑
+│
+● Pmax  (Blocked)
 │  *
 │   *
 │     *
