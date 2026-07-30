@@ -34,18 +34,18 @@ PQ Curve 是風扇在固定轉速或固定PWM Duty，風扇能夠在建立不同
 
 ***
 
->Static Pressure
-> ↑
->│● Pmax  (Blocked)
->│  *
->│   *
->│     *
->│       *
->│         *
->│           *  
->│             *
->└───────────────●──── → Flow Rate
->               Qmax (Free Air)
+Static Pressure
+ ↑
+│● Pmax  (Blocked)
+│  *
+│   *
+│     *
+│       *
+│         *
+│           *  
+│             *
+└───────────────●──── → Flow Rate
+               Qmax (Free Air)
 ***
 
 如何得到PQ 曲線呢? 大多是建立風洞系統將風扇安裝在風洞的入風口進行測量，而不是模擬或推算的。 尤其當實測下，還會量測每10duty(或者依據需要調整，5 duty或特殊duty)的風扇PQ曲線。
