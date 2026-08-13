@@ -52,6 +52,10 @@ https://www.cky.com.tw/insights/duct-pressure-loss-calculation
 3. **达西-魏斯巴赫方程SciencePedia玻尔百科**
 https://www.bohrium.com/sciencepedia/feynman/keyword/darcy_weisbach_equation
 
+4. **Losses and Friction Factors**  https://archive.nptel.ac.in/content/storage2/courses/112104118/lecture-26/26-5_loss_friction.htm?utm_source=chatgpt.com
+
+5. **頭部損失 本頁提供《能源部基礎手冊：熱力學、熱傳導與流體流動》...** https://engineeringlibrary.org/reference/head-loss-fluid-flow-doe-handbook?utm_source=chatgpt.com
+
 ***
 
 
