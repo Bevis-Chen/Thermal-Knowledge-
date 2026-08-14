@@ -38,7 +38,7 @@
 > 合理推斷為了維持相同流量、所以需要產生流體的靜壓增加; (上述推論的`ΔPsystem≈KsystemQ²`)，在伺服器應用上，當風扇提供更高流量、流速上升、由於內部零件導致帶著機械能的流量損失了、系統壓力損失也跟著上升，最後導致需要風扇提供更高壓差
 > 不同系統壓差與流量最後畫出曲線 System Impedance Curve
 
-當然實務上除了公式推導，模擬CFD運算出 System Impedance Curve，其實實務上伺服器都會透過風洞量測來改變系統流量找出對應壓差，取得實際的 System Impedance Curve。
+當然實務上除了公式推導，模擬CFD運算出 System Impedance Curve，其實實務上伺服器都會透過風洞量測、改變系統流量找出對應壓差，取得實際的 System Impedance Curve。
 
 #### 最後的最後
 
