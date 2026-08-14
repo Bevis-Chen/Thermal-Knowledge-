@@ -39,9 +39,7 @@
 當然實務上除了公式推導，模擬CFD運算出 System Resistance Curve，其實大多伺服器都會透過風洞量測來改變系統流量找出對應壓差，取得實際的System Impedance Curve
 #### 最後的最後
 
-在系統裡面風扇提供了需要的壓差，系統因為內部零件有了流動阻力所以會有壓力損失。當我們把FAN PQ 與 SYSTEM RESISTANCE 曲線放在一起相交，兩者同時滿足就會是系統實際運作的 Working Point。
-
-下一章節: 工作點。 以及匯集 FAN PQ，系統阻抗的總章
+在系統裡面風扇提供了需要的壓差，系統因為內部零件有了流動阻力所以會有壓力損失。當我們把FAN PQ 與 SYSTEM RESISTANCE 曲線放在一起相交，兩者同時滿足就會是系統實際運作的 Working Point。下一章節: 工作點，以及匯集 FAN PQ，系統阻抗的總章。
 
 ***
 參考資料
