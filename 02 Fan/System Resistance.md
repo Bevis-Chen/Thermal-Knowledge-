@@ -43,9 +43,10 @@ Darcy–Weisbach equation描述水頭損失Head Loss，表達在一個流體流�
 
 #### 最後的最後
 
-在系統裡面風扇提供了需要的壓差，系統因為內部零件有了流動阻力所以會有壓力損失。有趣的是當我們藉由風洞量測完FAN PQ 與 System Impedance 曲線、兩個曲線放在同一個 Flow–Pressure 座標系中，兩條曲線的交點代表風扇所能提供的壓力與系統在該流量下所需的壓力同時滿足，此交點即為系統的 Working Point。
+在系統裡面風扇提供了需要的壓差，系統因為內部零件有了流動阻力所以會有壓力損失。有趣的是當我們藉由風洞分別量測完 FAN PQ 與 System Impedance 曲線、兩個曲線放在同一個 Flow–Pressure 座標系中，兩條曲線的交點代表風扇所能提供的壓力與系統在該流量下所需的壓力同時滿足，此交點即為系統的 Working Point。
 
-下一章節: 工作點，以及匯集 FAN PQ，系統阻抗的總章。
+不過FAN PQ裡面，P是指風扇所建立的壓差; System Impedance曲線的P是指壓力損失。
+下一章節工作點，會釐清Static Pressure 與 Total Pressure 的定義、測點與 reference plane。
 
 ***
 參考資料
