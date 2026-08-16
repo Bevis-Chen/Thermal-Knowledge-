@@ -50,30 +50,7 @@ Darcy–Weisbach equation描述水頭損失Head Loss，表達在一個流體流�
 
 ***
 參考資料
-1. **探索風扇特性曲線p-q中靜壓的秘密**
-(https://www.pauli.com.tw/news/details.php?id=5138&group_id=1711)
-
-2. **風管壓損計算實務指南：
-從摩擦損失到局部損失的完整工程方法**
-https://www.cky.com.tw/insights/duct-pressure-loss-calculation
-
-3. **达西-魏斯巴赫方程SciencePedia玻尔百科**
-https://www.bohrium.com/sciencepedia/feynman/keyword/darcy_weisbach_equation
-
-4. **Losses and Friction Factors**  https://archive.nptel.ac.in/content/storage2/courses/112104118/lecture-26/26-5_loss_friction.htm?utm_source=chatgpt.com
-
-5. **頭部損失 本頁提供《能源部基礎手冊：熱力學、熱傳導與流體流動》...** https://engineeringlibrary.org/reference/head-loss-fluid-flow-doe-handbook?utm_source=chatgpt.com
-
+1. NPTEL
+2. U.S. Department of Energy Engineering Library
+3. AMCA
 ***
-
-
-
-
-
-
-
-
-
-
-
-
