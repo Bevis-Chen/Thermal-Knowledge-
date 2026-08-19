@@ -46,18 +46,19 @@ Darcy–Weisbach equation 主要用於描述流體沿著管路或流道流動時
 
 #### 最後的最後
 
-所以系統阻抗曲線是描述了在不同的流量下、系統需要克服的壓力損失。
-它回答的是「這個系統需要多少壓力才能讓指定流量通過」，而不是風扇實際能提供多少流量。
+所以System Impedance Curve 是描述了在不同的流量下、系統需要克服的壓力損失。它回答的是「這個系統需要多少壓力才能讓指定流量通過」，而不是風扇實際能提供多少流量。在系統裡面風扇提供了需要的壓差，系統因為內部零件有了流動阻力所以會有壓力損失。有趣的是當 FAN PQ 與 System Impedance 兩個曲線放在同一個 Flow–Pressure 座標系中，兩條曲線的交點代表風扇所能提供的壓力與系統在該流量下所需的壓力同時滿足，此交點即為系統的 Working Point。
 
+總的來說，Fan PQ Curve 中的 P，是指風扇在特定轉速下，於不同流量條件所能建立的壓差；System Impedance Curve 中的 P，則代表系統在特定流量下所需要克服的壓力損失。
 
-在系統裡面風扇提供了需要的壓差，系統因為內部零件有了流動阻力所以會有壓力損失。有趣的是當 FAN PQ 與 System Impedance 兩個曲線放在同一個 Flow–Pressure 座標系中，兩條曲線的交點代表風扇所能提供的壓力與系統在該流量下所需的壓力同時滿足，此交點即為系統的 Working Point。
-
-不過FAN PQ裡面，P是指風扇的特定轉速下因為不同流量所建立的壓差; System Impedance曲線的P是指特定流量提供給系統所造成的壓力損失。
-下一章節工作點，會釐清Static Pressure 與 Total Pressure 的定義、測點與 reference plane。
-
+下一章節「工作點」將進一步釐清 Static Pressure、Total Pressure，以及兩者的測點與 reference plane。
 ***
 參考資料
 1. NPTEL
 2. U.S. Department of Energy Engineering Library
 3. AMCA
 ***
+XD伺服器的元件不是阻抗而是產生壓降? 這不是同一個意思??? 或是說個體元件是壓降、整機系統就需要描述為 阻抗~?
+GPT您說的PQ裡面的P 一付是想要產生高流量的擬人機器: 因為低流量所以需要更高靜壓推空氣???
+
+
+
