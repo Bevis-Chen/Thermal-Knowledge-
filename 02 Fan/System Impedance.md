@@ -21,7 +21,9 @@ Darcy–Weisbach equation描述水頭損失 Head Loss，表達在一個流體流
 以上要素所組成。以上結果得出水頭損失 h 的單位為 m(米)。若轉換為壓力損失 ΔP 則需要乘上 ρg (流體密度 x 重力加速度)。不過特別說明:
 Darcy–Weisbach equation 主要用於描述流體沿著管路或流道流動時，由壁面摩擦造成的沿程水頭損失。實際使用時，仍需要依照流動狀態、流道幾何與流體性質選擇適當的模型與摩擦因子。
 
-管路的損耗其實分成主要損失（Major Losses）以及局部損失（Minor Losses），主要損失Major Loss的是由於管路管道裡面的壁面摩擦，局部損失Minor Losses則是因為管路裡面的縮口/擴口/彎頭...等，屬於局部流動損失，實際伺服器內部還會有其他零件造成壓力損失、流動阻力。伺服器的 System Impedance 是整個系統對流體流動所呈現的等效阻力特性，可能來自主要壓力損失、局部損失、系統內部阻抗如Heatsink、Duct等等系統元件所造成的壓降。
+管路的損耗其實分成主要損失（Major Losses）以及局部損失（Minor Losses），主要損失Major Loss的是由於管路管道裡面的壁面摩擦，局部損失Minor Losses則是因為管路裡面的縮口/擴口/彎頭...等，屬於局部流動損失，實際伺服器內部還會有其他零件造成壓力損失、流動阻力。
+
+伺服器的 System Impedance 是整個系統對流體流動所呈現的等效阻力特性，阻力來源可能是沿程損失、局部損失，還有系統內部元件如Heatsink、Duct等等所造成的壓降，這些壓降隨著流量變化最終形成整個系統的System Impedance Curve。
 
 本篇章到這裡可以說，在現實世界裡無法僅透過Darcy–Weisbach方程來解釋壓力損失，要討論非管道管路的元件造成的壓降、需要元件的規格書以及實驗測量或者流體模型等的資訊進一步評估。之後的文章會再討論Minor Loss / Component Pressure Drop的詳細內容。
 
@@ -57,8 +59,7 @@ Darcy–Weisbach equation 主要用於描述流體沿著管路或流道流動時
 2. U.S. Department of Energy Engineering Library
 3. AMCA
 ***
-XD伺服器的元件不是阻抗而是產生壓降? 這不是同一個意思??? 或是說個體元件是壓降、整機系統就需要描述為 阻抗~?
-GPT您說的PQ裡面的P 一付是想要產生高流量的擬人機器: 因為低流量所以需要更高靜壓推空氣???
+
 
 
 
