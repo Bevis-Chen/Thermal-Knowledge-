@@ -1,6 +1,5 @@
 ## 前言
-我們知道伺服器需要知道多少流量CFM解熱的方法、是透過風洞測試取得System Impedance Curve 。
-在理解量測結果前，需要先理解壓力損失與流量之間的關係。
+我們透過風洞測試取得System Impedance Curve，了解伺服器在不同流量下所需要的壓力損失。結合風扇PQ Curve，才能判斷實際系統的Working Point與可達流量。不過在理解量測結果前，需要先理解壓力損失與流量之間的關係。
 
 ## 壓力損失 Pressure Loss
 空氣流動進入系統或者流進風道時，我們發現系統不能夠因此擁有無限制地增加流量。
@@ -10,8 +9,7 @@
 
 ## 達西–魏斯巴赫方程 Darcy–Weisbach equation
 
-壓力損失有許多模型或是公式去描述，Darcy–Weisbach equation就是一種。
-Darcy–Weisbach equation描述水頭損失 Head Loss，表達在一個流體流動的流道中，其沿程摩擦所造成的水頭損失 :
+壓力損失有許多模型或是公式去描述，Darcy–Weisbach equation就是一種。System Impedance 則是從整個系統的角度，描述流量與系統壓差之間的整體關係。Darcy–Weisbach equation描述水頭損失 Head Loss，表達在一個流體流動的流道中，其沿程摩擦所造成的水頭損失 :
 **h = f * (L/D) * (V²/2g)** 
   * 流道長度 L（單位 m公尺)
   * 管徑 D（此處以圓管作為簡化模型)(單位 m公尺)
@@ -22,7 +20,7 @@ Darcy–Weisbach equation描述水頭損失 Head Loss，表達在一個流體流
 以上要素所組成。以上結果得出水頭損失 h 的單位為 m(米)。若轉換為壓力損失 ΔP 則需要乘上 ρg (流體密度 x 重力加速度)。不過特別說明:
 Darcy–Weisbach equation 主要用於描述流體沿著管路或流道流動時，由壁面摩擦造成的沿程水頭損失。實際使用時，仍需要依照流動狀態、流道幾何與流體性質選擇適當的模型與摩擦因子。
 管路的損耗其實分成 沿程損失（Major Losses）以及 局部損失（Minor Losses），沿程損失 Major Loss的是由於管路管道裡面的壁面摩擦，局部損失 Minor Losses則是因為管路裡面的縮口/擴口/彎頭...等，屬於局部流動損失，實際伺服器內部還會有其他零件造成壓力損失、流動阻力。
-伺服器的 System Impedance 是整個系統對流體流動所呈現的等效阻力特性，阻力來源可能是沿程損失、局部損失，還有系統內部元件如Heatsink、Duct等等所造成的壓降，這些壓降隨著流量變化最終形成整個系統的System Impedance Curve。
+伺服器的 System Impedance 是整個系統對流體流動所呈現的等效阻力特性，阻力來源可能是沿程損失、局部損失，還有系統內部元件如Heatsink、Duct等等所造成的壓降，隨著流量變化使得上述的流動阻力產生相對應的壓力損失、最終形成整個系統的System Impedance Curve。
 本篇章到這裡可以說，在現實世界裡無法僅透過Darcy–Weisbach方程來解釋壓力損失，要討論非管道管路的元件造成的壓降、需要元件的規格書以及實驗測量或者流體模型等的資訊進一步評估。之後的文章會再討論Minor Loss 、Component Pressure Drop的詳細內容。
 
 ## 壓力與流量的關係
