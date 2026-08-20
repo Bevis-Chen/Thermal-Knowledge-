@@ -47,13 +47,13 @@ Darcy–Weisbach equation 主要用於描述流體沿著管路或流道流動時
 
 所以System Impedance Curve 是描述了在不同的流量下、系統需要克服的壓力損失。它回答的是「這個系統需要多少壓力才能讓指定流量通過」，而不是風扇實際能提供多少流量。在系統裡面風扇提供了需要的壓差，系統因為內部零件有了流動阻力所以會有壓力損失。有趣的是當 FAN PQ 與 System Impedance 兩個曲線放在同一個 Flow–Pressure 座標系中，兩條曲線的交點代表風扇所能提供的壓力與系統在該流量下所需的壓力同時滿足，此交點即為系統的 Working Point。
 
-總的來說，Fan PQ Curve 中的 P，是指風扇在特定轉速下，於不同流量條件所能提供的壓差；System Impedance Curve 中的 P，則代表系統在特定流量下所需要克服的壓力損失，可以視為系統需要克服的壓力損失。
+總的來說，Fan PQ Curve 中的 P，是指風扇在特定轉速下，於不同流量條件所能提供的壓差；System Impedance Curve 中的 P，則代表系統在特定流量下所對應的系統壓差，可以視為系統需要克服的壓力損失。
 
 下一章節「工作點」將進一步釐清 Static Pressure、Total Pressure，以及兩者的測點與 reference plane。
 ***
 參考資料
 1. NPTEL
-2. U.S. Department of Energy Engineering Library
-3. AMCA
+2. AMCA
+3. U.S. Department of Energy Engineering Library
 ***
 
