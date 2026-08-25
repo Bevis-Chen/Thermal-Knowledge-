@@ -33,4 +33,6 @@ Measurement Plane 的實際位置與配置在標準的風量測試風洞（Wind 
 ```
 [風扇 / 待測物] ----> [整流段/靜壓箱] ----> [Measurement Plane 1] ----> [噴嘴 Nozzle] ----> [Measurement Plane 2]
 ```
-1. 靜壓測量平面（Upstream/Plenum Measurement Plane）位置：位於風扇出風口（或進風口）後方的靜壓箱（Plenum Chamber）內，或是距離風扇一定倍數管徑的直管上。作用：量測風扇在該風量下所建立的 靜壓差（$\Delta P_s$）。量測方式：在此平面的管壁四周均勻開設 4 個靜壓孔（Static Pressure Taps），並將其連通（Ring Manifold）取平均值，以消除局部流動不均的誤差。2. 風量測量平面（Nozzle Measurement Plane）位置：位於風洞內部校準過的噴嘴（Nozzle）前後兩側。作用：量測氣流通過噴嘴前後的壓差（$\Delta P_{nozzle}$），再透過伯努利定律計算出當前的 體積風量（Airflow Rate, $Q$）。
+1. 靜壓測量平面（Upstream/Plenum Measurement Plane）位置：位於風扇出風口（或進風口）後方的靜壓箱（Plenum Chamber）內，或是距離風扇一定倍數管徑的直管上。作用：量測風扇在該風量下所建立的 靜壓差（P_s）。量測方式：在此平面的管壁四周均勻開設 4 個靜壓孔（Static Pressure Taps），並將其連通（Ring Manifold）取平均值，以消除局部流動不均的誤差。
+
+2. 風量測量平面（Nozzle Measurement Plane）位置：位於風洞內部校準過的噴嘴（Nozzle）前後兩側。作用：量測氣流通過噴嘴前後的壓差（$\Delta P_{nozzle}$），再透過伯努利定律計算出當前的 體積風量（Airflow Rate, $Q$）。
