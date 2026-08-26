@@ -3,6 +3,11 @@
 我們知道了Fan PQ 以及System impednace 的意義，當然會想要知道如何使用這兩個神奇的圖表讓獨舞變成雙人華爾滋!
 接下來便是一步步整合這兩個圖表以及最後得到working point: 為什麼兩條曲線的交點，物理上會成為系統唯一的穩態工作狀態？
 
+###### Static Pressure And Total Pressure
+###### Measurement Plane（測量平面）
+
+
+
 ### Static Pressure And Total Pressure
 
 Static Pressure And Total Pressure
