@@ -9,10 +9,10 @@
 
 在System Impedance Curve 圖表描述的 P 代表著壓力損失，在固定系統硬體配置及條件下，風通過系統所產生的流量與壓力損失的對應關係。這條曲線可以近似二次曲線來說明，ΔPsystem ≈ Ksystem * Q²，流量增加時，系統內部的摩擦與局部阻力通常會增加，因此維持該流量所需克服的壓力損失也會增加。大多數的伺服器不僅僅擁有一顆風扇，我們也無法僅透過系統一顆風扇的單體PQ Curve以及整機系統的System Impedance Curve放在同一個Flow-Pressure圖表，然後說兩條曲線交會就是工作點。當然，若系統只有單顆風扇、且Pressure reference plane / Fan PQ / System Impedance 等等條件可對應跟滿足，那麼此時Fan PQ 以及 System Impedance兩條曲線可以放在同一個pressure-flow chart做比較。拿來與 System Curve 比較的，必須是「整個 fan arrangement 對系統所提供的 pressure-flow characteristic」。
 
-除了量測系統阻抗，接下來還會改動風洞量測的模式--從系統阻抗改成Fan PQ，這時候再上電開機且固定風扇轉速，量測就會得到一組Fan PQ，這組Fan PQ就可以拿來與稍早量測的系統阻抗比較了。
-
 PQ Curve 的繪製：固定風扇轉速，透過調整風洞出口的開度（改變系統阻抗），在 Measurement Plane 上同時記錄「風量 Q」與「靜壓 Ps」，將這些點連成曲線。
 System Impedance Curve 的計算：將實際系統（如伺服器機殼）放入測試，在系統前後的 Measurement Plane 上量測系統阻抗引起的壓力損失（Pressure Drop, ΔP），驗證公式 ΔP = K * Q² 中的阻抗係數 K。
+
+到這裡會有疑問: 「既然 Fan PQ Curve 可能使用 Static Pressure，而 System Curve 描述的是 Pressure Loss，兩者到底憑什麼能放在同一張圖？」
 
 ### Measurement Plane（測量平面）
 
@@ -24,7 +24,7 @@ System Impedance Curve 的計算：將實際系統（如伺服器機殼）放入
 - 定義系統邊界：它是計算風扇靜壓（Static Pressure, Ps） 與 全壓（Total Pressure, Pt） 的基準點。
 - 標準化數據：讓不同廠商、不同實驗室量測出來的 PQ Curve 與 System Impedance Curve 具備統一的比較基準。
 Measurement Plane 的實際位置與配置在標準的風量測試風洞（Wind Tunnel / Airflow Test Chamber）中，通常會有兩個關鍵的測量平面：
-
+**以下為概念示意，實際測試配置依測試標準與 apparatus arrangement 而異。**
 ```
 [風扇 / 待測物] ----> [整流段/靜壓箱] ----> [Measurement Plane 1] ----> [噴嘴 Nozzle] ----> [Measurement Plane 2]
 ```
