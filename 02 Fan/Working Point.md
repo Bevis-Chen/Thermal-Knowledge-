@@ -5,10 +5,11 @@
 
 ### Static Pressure And Total Pressure
 
+我們在Fan PQ Curve 圖表裡面描述P是一個代表靜壓的參數，在固定轉速下風扇因為當下條件，靜壓與流量的關係。在此時所謂"最大靜壓"是因為風扇被完全封閉的擋板或阻抗等等，導致風扇為了推動空氣產生靜壓、在風扇出口的地方為此刻為最大靜壓。流量逐漸降低時，風扇對流體建立的壓力升高；當流量趨近於零時，對應到風扇的 shutoff condition，此時可得到其性能曲線上的最大壓力。
 
-我們在Fan PQ Curve 圖表裡面描述 P是一個代表靜壓的參數，在固定轉速下風扇因為當下條件，靜壓與流量的關係。在此時所謂"最大靜壓"是因為風扇被完全封閉的擋板或阻抗等等，導致風扇為了推動空氣產生靜壓、在風扇出口的地方為此刻為最大靜壓。流量逐漸降低時，風扇對流體建立的壓力升高；當流量趨近於零時，對應到風扇的 shutoff condition，此時可得到其性能曲線上的最大壓力。
+在System Impedance Curve 圖表描述的 P 代表著壓力損失，在固定系統硬體配置及條件下，風通過系統所產生的流量與壓力損失的對應關係。這條曲線可以近似二次曲線來說明，ΔPsystem ≈ Ksystem * Q²，流量增加時，系統內部的摩擦與局部阻力通常會增加，因此維持該流量所需克服的壓力損失也會增加。大多數的伺服器不僅僅擁有一顆風扇，我們也無法僅透過系統一顆風扇的單體PQ Curve以及整機系統的System Impedance Curve放在同一個Flow-Pressure圖表，然後說兩條曲線交會就是工作點。當然，若系統只有單顆風扇、且Pressure reference plane / Fan PQ / System Impedance 等等條件可對應跟滿足，那麼此時Fan PQ 以及 System Impedance兩條曲線可以放在同一個pressure-flow chart做比較。拿來與 System Curve 比較的，必須是「整個 fan arrangement 對系統所提供的 pressure-flow characteristic」。
 
-在System Impedance Curve 圖表描述的 P 代表著壓力損失，在固定系統硬體配置及條件下，風通過系統所產生的流量與壓力損失的對應關係。這條曲線可以近似二次曲線來說明，ΔPsystem ≈ Ksystem * Q²，流量增加時，系統內部的摩擦與局部阻力通常會增加，因此維持該流量所需克服的壓力損失也會增加。我們無法僅透過系統一顆風扇的單體PQ Curve以及整機系統的System Impedance Curve放在同一個Flow-Pressure圖表，然後說兩條曲線交會就是工作點。畢竟系統裡面不只一顆風扇、甚至我們得到風扇PQ曲線一般也是in free air量測，這完全與系統使用差異巨大。除了量測系統阻抗，接下來還會改動風洞量測的模式--從系統阻抗改成Fan PQ，這時候再上電開機且固定風扇轉速，量測就會得到一組Fan PQ，這組Fan PQ就可以拿來與稍早量測的系統阻抗比較了。
+除了量測系統阻抗，接下來還會改動風洞量測的模式--從系統阻抗改成Fan PQ，這時候再上電開機且固定風扇轉速，量測就會得到一組Fan PQ，這組Fan PQ就可以拿來與稍早量測的系統阻抗比較了。
 
 PQ Curve 的繪製：固定風扇轉速，透過調整風洞出口的開度（改變系統阻抗），在 Measurement Plane 上同時記錄「風量 Q」與「靜壓 Ps」，將這些點連成曲線。
 System Impedance Curve 的計算：將實際系統（如伺服器機殼）放入測試，在系統前後的 Measurement Plane 上量測系統阻抗引起的壓力損失（Pressure Drop, ΔP），驗證公式 ΔP = K * Q² 中的阻抗係數 K。
@@ -36,6 +37,9 @@ Measurement Plane 的實際位置與配置在標準的風量測試風洞（Wind 
 
 
 
+***
+參考資料
+1. https://www.activa.com.tw/cn_tech_Test_System_Fan_Performance.html
 
 
 
