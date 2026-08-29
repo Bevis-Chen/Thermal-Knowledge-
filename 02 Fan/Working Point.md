@@ -27,10 +27,5 @@ Measurement Plane 是測試系統中被明確定義的測量截面，用來規�
 當伺服器與風扇運轉，達到穩定狀態，整機風扇提供的壓差P1以及系統損失P2達到相等。我可以發現此時的PQ曲線以及系統阻抗曲線放在一起，P1對應到的Q1、也會是系統需要的系統流量Q2，這個點就是工作點。
 
 
-***
-參考資料
-1. https://www.activa.com.tw/cn_tech_Test_System_Fan_Performance.html
-
-
 
 
