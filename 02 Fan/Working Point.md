@@ -18,7 +18,6 @@ System Impedance Curve 本身並不描述風扇提供多少能量，而是描述
 | **Fan PQ Curve**           | 在某個流量下，Fan 能提供多少壓力          |
 | **System Impedance Curve** | 在某個流量下，System 需要克服多少壓力損失 |
 | **Working Point**          | Fan 提供與 System 需求達到平衡的狀態     |
-|---                        |---                                      |
 
 ##### 邊界條件
 
@@ -26,7 +25,7 @@ Fan PQ Curve 與 System Impedance Curve 並不是只要單位同樣是 Pa，就�
 
 Measurement Plane 是測試系統中被明確定義的測量截面，用來規定壓力、速度或流量等物理量「在哪裡、以什麼方式」被量測，使不同測試條件下取得的數據具有一致的參考基準。在風扇與系統阻抗測試（如 AMCA 210 或 ISO 5801 標準風洞測試）中，Measurement Plane（測量平面） 是指在測試風洞或管道系統中，專門指定用來架設傳感器並量測流體狀態（靜壓、動壓、風速）的特定截面。Measurement Plane 的位置會影響壓力定義，因此 Fan PQ 與 System Impedance 能否直接比較，不只是看單位都是 Pa，而要確認兩者的測量位置與 pressure definition 是否相容。流體在通過風扇、轉彎、縮管或障礙物時，流場是非常混亂且不均勻的（湍流與渦流）。如果隨意找一個位置量測壓力，量出來的數值會劇烈跳動且毫無參考價值。指定 Measurement Plane 的主要目的如下：
 
-- 確保流場穩定：測量平面通常設置在流場經過整流（Flow Straightener）後、流動相對平穩的直管段上。
+- 提高量測的穩定性與可重現性：測量平面通常設置在流場經過整流（Flow Straightener）後、流動相對平穩的直管段上。
 - 定義系統邊界：它是計算風扇靜壓（Static Pressure, Ps） 與 全壓（Total Pressure, Pt） 的基準點。
 - 標準化數據：讓不同廠商、不同實驗室量測出來的 PQ Curve 與 System Impedance Curve 具備統一的比較基準。
 
