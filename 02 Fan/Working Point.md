@@ -13,13 +13,13 @@
 從PQ Curve的說明我們知道P 大部分是代表靜壓、也就是產生壓差的能力; System Impedance Curve的P則是指壓力損失，代表系統內部的摩擦與局部阻力等等。
 System Impedance Curve 本身並不描述風扇提供多少能量，而是描述在特定系統配置下，維持不同流量所需要克服的壓力損失。當風扇安裝於系統中並開始運轉時，風扇對流體做功，使流體獲得壓力與速度相關的機械能；流體通過 Filter、Heatsink、Duct 等元件後，因摩擦與局部流動損失而消耗部分機械能。最終在穩態下，風扇提供的壓力增量與系統所需克服的壓力損失達到平衡，形成 Working Point。
 
-```
+
 | 曲線 | 描述 |
 |---|---|
-| **Fan PQ Curve** | 在某個流量下，Fan 能提供多少壓力 |
+ ** Fan PQ Curve**     在某個流量下，Fan 能提供多少壓力 |
 | **System Impedance Curve** | 在某個流量下，System 需要克服多少壓力損失 |
 | **Working Point** | Fan 提供與 System 需求達到平衡的狀態 |
-```
+
 
 
 ##### 邊界條件
