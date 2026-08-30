@@ -16,7 +16,7 @@ System Impedance Curve 本身並不描述風扇提供多少能量，而是描述
 
 | 曲線 | 描述 |
 |---|---|
- ** Fan PQ Curve**     在某個流量下，Fan 能提供多少壓力 |
+| **Fan PQ Curve** |在某個流量下，Fan 能提供多少壓力 |
 | **System Impedance Curve** | 在某個流量下，System 需要克服多少壓力損失 |
 | **Working Point** | Fan 提供與 System 需求達到平衡的狀態 |
 
