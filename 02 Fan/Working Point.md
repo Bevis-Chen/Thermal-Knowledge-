@@ -1,6 +1,6 @@
 ### 前言
 
-我們知道了Fan PQ 以及System impednace 的意義，進一步會想知道使用這兩個神奇的圖表讓實務上的應用。接下來便是一步步整合這兩個圖表以及最後得到working point: 為什麼兩條曲線的交點，物理上會成為系統唯一的穩態工作狀態。
+我們知道了Fan PQ 以及System impednace 的意義，進一步會想知道使用這兩個神奇的圖表讓實務上的應用。接下來便是一步步整合這兩個圖表以及最後得到working point: 為什麼兩條曲線的交點，會成為系統的穩態工作狀態。
 
 ### Static Pressure And Total Pressure
 
@@ -31,12 +31,13 @@ Measurement Plane 是測試系統中被明確定義的測量截面，用來規�
 
 ### 工作點
 
-當伺服器與風扇運轉，達到穩定狀態，整機風扇提供的壓差P1以及系統損失P2達到相等。
+當伺服器與風扇運轉，達到穩定狀態，整機風扇提供的壓差P1以及系統損失P2達到相等。也就是
 
 ΔPfan(Qworking-point) = ΔPsystem(Qworking-point)
-# Qfan = 
-# Qsystem = 
-# Q working-point
+
+Qfan = Qsystem = Q working-point
+
+Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate 下，Fan 所能提供的壓力與 System 所需克服的壓力損失達到平衡的位置。
 
 我可以發現此時的PQ曲線以及系統阻抗曲線放在一起，P1對應到的Q1、也會是系統需要的系統流量Q2，這個點就是工作點。
 
