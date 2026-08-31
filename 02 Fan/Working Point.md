@@ -34,14 +34,13 @@ Measurement Plane 是測試系統中被明確定義的測量截面，用來規�
 ### 工作點
 
 當伺服器與風扇運轉，達到穩定狀態，整機風扇提供的壓差P1以及系統損失P2達到相等。也就是
-
+```
 ΔPfan(Qworking-point) = ΔPsystem(Qworking-point)
-
 Qfan = Qsystem = Q working-point
-
+```
 Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate 下，Fan 所能提供的壓力與 System 所需克服的壓力損失達到平衡的位置。
 
-我可以發現此時的PQ曲線以及系統阻抗曲線放在一起，P1對應到的Q1、也會是系統需要的系統流量Q2，這個點就是工作點。
+我可以發現此時的PQ曲線以及系統阻抗曲線放在一起，P1對應到的Q1、也會是系統需要的系統流量Q2，這個點就是工作點。Working Point 並不是風扇或系統單獨決定的性能，而是 Fan 與 System 的 Pressure–Flow characteristics 互相匹配後所形成的實際運作狀態。
 
 
 
