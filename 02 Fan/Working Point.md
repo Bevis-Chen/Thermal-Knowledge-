@@ -19,6 +19,8 @@ System Impedance Curve 本身並不描述風扇提供多少能量，而是描述
 | **System Impedance Curve** | 在某個流量下，System 需要克服多少壓力損失 |
 | **Working Point**          | Fan 提供與 System 需求達到平衡的狀態     |
 
+不過風扇PQ以及系統阻抗雖然有著密切關係，但仍不能直接說兩個可以放在一起討論，還需要進一步規範跟預設條件。
+
 ##### 邊界條件
 
 Fan PQ Curve 與 System Impedance Curve 並不是只要單位同樣是 Pa，就可以直接疊圖比較。必須先確認 Fan PQ 的壓力定義、System Pressure Loss 的定義、Flow Rate 的定義、Measurement Plane，以及 Fan arrangement 與實際系統配置是否相容。當這些條件成立後，兩者才可以在同一個 Pressure–Flow framework 下比較，並透過兩條曲線的交會找出 Working Point。當然，若系統只有單顆風扇、且Pressure reference plane / Fan PQ / System Impedance 等等條件可對應跟滿足，那麼此時Fan PQ 以及 System Impedance 兩條曲線可以放在同一個pressure-flow chart做比較。拿來與 System Curve 比較的，必須是「整個 fan arrangement 對系統所提供的 pressure-flow characteristic」。Fan Laws、Fan arrangement、Series / Parallel Fan，之後都會影響 Working Point。到這裡會有疑問: 「既然 Fan PQ Curve 可能使用 Static Pressure，而 System Curve 描述的是 Pressure Loss，兩者到底憑什麼能放在同一張圖？」
