@@ -1,6 +1,6 @@
 ### 前言
 
-我們知道了Fan PQ 以及System impednace 的意義，進一步會想知道使用這兩個神奇的圖表讓實務上的應用。接下來便是一步步整合這兩個圖表以及最後得到working point: 為什麼兩條曲線的交點，會成為系統的穩態工作狀態。
+我們知道了Fan PQ 以及System impednace 的意義，進一步會想知道使用這兩個神奇的圖表讓實務上的應用。接下來便是一步步整合這兩個圖表以及最後得到 Working point: 為什麼兩條曲線的交點，會成為系統的穩態工作狀態。
 
 ### Static Pressure And Total Pressure
 
@@ -8,18 +8,18 @@
 >我們在Fan PQ Curve 圖表裡面描述P是一個代表靜壓的參數，在固定轉速下風扇因為當下條件，靜壓與流量的關係。在此時所謂"最大靜壓"是因為風扇被完全封閉的擋板或阻抗等等，導致風扇為了推動空氣產生靜壓、在風扇出口的地方為此刻為最大靜壓。流量逐漸降低時，風扇對流體建立的壓力升高；當流量趨近於零時，對應到風扇的 shutoff condition，此時可得到其性能曲線上的最大壓力。
 
 **System Impedance Curve 的計算**：將實際系統（如伺服器機殼）放入測試，在系統前後的 Measurement Plane 上量測系統阻抗引起的壓力損失（Pressure Drop, ΔP），驗證公式 ΔP = K * Q² 中的阻抗係數 K。
->在System Impedance Curve 圖表描述的 P 代表著壓力損失，在固定系統硬體配置及條件下，風通過系統所產生的流量與壓力損失的對應關係。這條曲線可以近似二次曲線來說明，ΔPsystem ≈ Ksystem * Q²，流量增加時，系統內部的摩擦與局部阻力通常會增加，因此維持該流量所需克服的壓力損失也會增加。
+>在System Impedance Curve 圖表描述的 P 代表著壓力損失，在固定系統硬體配置及條件下，風通過系統所產生的流量與壓力損失的對應關係。這條曲線可以近似二次曲線來說明，ΔP_system ≈ Ksystem * Q²，流量增加時，系統內部的摩擦與局部阻力通常會增加，因此維持該流量所需克服的壓力損失也會增加。
 
 從PQ Curve的說明我們知道P 大部分是代表靜壓、也就是產生壓差的能力; System Impedance Curve的P則是指壓力損失，代表系統內部的摩擦與局部阻力等等。
 System Impedance Curve 本身並不描述風扇提供多少能量，而是描述在特定系統配置下，維持不同流量所需要克服的壓力損失。當風扇安裝於系統中並開始運轉時，風扇對流體做功，使流體獲得壓力與速度相關的機械能；流體通過 Filter、Heatsink、Duct 等元件後，因摩擦與局部流動損失而消耗部分機械能。最終在穩態下，風扇提供的壓力增量與系統所需克服的壓力損失達到平衡，形成 Working Point。
 
 | 曲線                       | 描述                                    |
 |---                        |---                                      |
-| **Fan PQ Curve**           | 在某個流量下，Fan 能提供多少壓力          |
-| **System Impedance Curve** | 在某個流量下，System 需要克服多少壓力損失 |
+| **Fan PQ Curve**           | 在某個流量下，Fan能提供多少壓力          |
+| **System Impedance Curve** | 在某個流量下，System需要克服多少壓力損失 |
 | **Working Point**          | Fan 提供與 System 需求達到平衡的狀態     |
 
-不過風扇PQ以及系統阻抗雖然有著密切關係，但仍不能直接說兩個可以放在一起討論，還需要進一步規範跟預設條件。
+不過風扇PQ以及系統阻抗雖然有著密切關係，但仍不能直接說兩個可以放在一起討論，也必須確認這條 PQ curve 是 fan static pressure 還是 fan total pressure 、以及需要進一步規範跟預設條件。
 
 ##### 邊界條件
 
@@ -35,8 +35,8 @@ Measurement Plane 是測試系統中被明確定義的測量截面，用來規�
 
 當伺服器與風扇運轉，達到穩定狀態，整機風扇提供的壓差P1以及系統損失P2達到相等。也就是
 ```
-ΔPfan(Qworking-point) = ΔPsystem(Qworking-point)
-Qfan = Qsystem = Q working-point
+ΔP_fan(Q_working-point) = ΔP_system(Q_working-point)
+Q_fan = Q_system = Q_working-point
 ```
 Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate 下，Fan 所能提供的壓力與 System 所需克服的壓力損失達到平衡的位置。
 
