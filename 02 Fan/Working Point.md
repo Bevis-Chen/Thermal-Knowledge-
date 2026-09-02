@@ -49,8 +49,10 @@ Q_fan = Q_system = Q_working-point
 ```
 Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate 下，Fan 所能提供的壓力與 System 所需克服的壓力損失達到平衡的位置。
 
-我可以發現此時的PQ曲線以及系統阻抗曲線放在一起，P1對應到的Q1、也會是系統需要的系統流量Q2，這個點就是工作點。Working Point 並不是風扇或系統單獨決定的性能，而是 Fan 與 System 的 Pressure–Flow characteristics 互相匹配後所形成的實際運作狀態。
+我可以發現此時的PQ曲線以及系統阻抗曲線放在一起，在該 Q 下，風扇能提供的壓力正好等於系統需要的壓力損失，因此沒有淨力推動流量變化，系統進入穩態。Working Point 並不是風扇或系統單獨決定的性能，而是 Fan 與 System 的 Pressure–Flow characteristics 互相匹配後所形成的實際運作狀態。
 
+
+假設 fan PQ: P = a - b*Q²
 
 
 
