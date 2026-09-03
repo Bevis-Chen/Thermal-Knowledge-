@@ -58,11 +58,13 @@
 
 本文提到的「壓力」，主要是為了理解壓差如何驅動流體流動。在風扇的 PQ Curve 中，經常出現的 Static Pressure（靜壓），其實是流體力學中的另一個重要概念。流體力學以及描述流體時，靜壓是說明流體微元們彼此推擠程度的一種物理量，是對某一個流體位置依據量測、計算、CFD軟體模擬求得。故風扇 PQ Curve 中所討論的 Pressure，它並不是另一種新的壓力。在之後的說明 PQ curve，也會深入說明靜壓在流體的作用。
 
+
+
 ***
 <img width="1024" height="559" alt="dcf265f2-5e0b-4e36-850d-d37d4a96b75e" src="https://github.com/user-attachments/assets/8a435cd2-41cc-4914-bcbf-b6dcd847a9a9" />
-
 > 在流體裡面、因為兩側壓力不同 (P1 > P2)，而存在壓力差. 流場流線形成壓力梯度，淨力不為0使得流體微元們有了加速度. 最後流體流動
 ***
+
 #### 參考資料
 
 1. https://zh.wikipedia.org/zh-tw/%E9%80%A3%E7%BA%8C%E9%AB%94%E5%81%87%E8%A8%AD
