@@ -42,19 +42,17 @@ Fan PQ Curve 與 System Impedance Curve 並不是只要單位同樣是 Pa，就�
 Measurement Plane 是測試系統中被明確定義的測量截面，用來規定壓力、速度或流量等物理量「在哪裡、以什麼方式」被量測，使不同測試條件下取得的數據具有一致的參考基準。在風扇與系統阻抗測試（如 AMCA 210 或 ISO 5801 標準風洞測試）中，Measurement Plane（測量平面） 是指在測試風洞或管道系統中，專門指定用來架設傳感器並量測流體狀態（靜壓、動壓、風速）的特定截面。Measurement Plane 的位置會影響壓力定義，因此 Fan PQ 與 System Impedance 能否直接比較，不只是看單位都是 Pa，而要確認兩者的測量位置與 pressure definition 是否相容。流體在通過風扇、轉彎、縮管或障礙物時，流場是非常混亂且不均勻的（湍流與渦流）。量測結果可能受到局部速度分布、渦流與壓力梯度影響，降低量測的穩定性、代表性與可重現性。指定 Measurement Plane 的主要目的如下：
 
 - 提高量測的穩定性與可重現性：測量平面通常設置在流場經過整流（Flow Straightener）後、流動相對平穩的直管段上。
-- 定義系統邊界：它是計算風扇靜壓（Static Pressure, Ps） 與 全壓（Total Pressure, Pt） 的基準點。
+- 定義系統邊界：明確定義量測位置與參考截面，使不同位置所量得的壓力與速度能夠按照測試方法進行比較或換算。
 - 標準化數據：讓不同廠商、不同實驗室量測出來的 PQ Curve 與 System Impedance Curve 具備統一的比較基準。
 
 ### 工作點
 
 當伺服器與風扇運轉，達到穩定狀態，整機風扇提供的壓差P1以及系統損失P2達到相等。也就是
 ```
-ΔP_fan(Q_working-point) = ΔP_system(Q_working-point)
-Q_fan = Q_system = Q_working-point
+ΔP_fan(Q_WP) = ΔP_system(Q_WP)
+Q_fan = Q_system = Q_WP
 ```
-Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate 下，Fan 所能提供的壓力與 System 所需克服的壓力損失達到平衡的位置。
-
-我可以發現此時的PQ曲線以及系統阻抗曲線放在一起，在該 Q 下，風扇能提供的壓力正好等於系統需要的壓力損失，因此沒有淨力推動流量變化，系統進入穩態。Working Point 並不是風扇或系統單獨決定的性能，而是 Fan 與 System 的 Pressure–Flow characteristics 互相匹配後所形成的實際運作狀態。
+Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate 下，Fan 所能提供的壓力與 System 所需克服的壓力損失達到平衡的位置。可以發現此時的PQ曲線以及系統阻抗曲線放在一起，在穩態條件下，風扇對流體所提供的壓力增量，與系統在該流量下所產生的壓力損失達到平衡，因此系統的平均流量不再隨時間持續變化。Working Point 並不是風扇或系統單獨決定的性能，而是 Fan 與 System 的 Pressure–Flow characteristics 互相匹配後所形成的實際運作狀態。
 
 ## 範例：簡單數學示範
 
@@ -63,7 +61,7 @@ Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate �
 系統壓力損失（近似）：ΔP_system(Q) = k_s * Q²
 工作點滿足： P0 - k_f * Q² = k_s * Q²
 → P0 = (k_f + k_s) Q²
-→ Q_working = √( P0 / (k_f + k_s) )
+→ Q_WP = √( P0 / (k_f + k_s) )
 
 範例數值（僅示範）：
 
