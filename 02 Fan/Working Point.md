@@ -53,7 +53,7 @@ Measurement Plane 是測試系統中被明確定義的測量截面，用來規�
 ΔP_fan(Q_WP) = ΔP_system(Q_WP)
 Q_fan = Q_system = Q_WP
 ```
-Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate 下，Fan 所能提供的壓力與 System 所需克服的壓力損失達到平衡的位置。可以發現此時的PQ曲線以及系統阻抗曲線放在一起，在穩態條件下，風扇對流體所提供的壓力增量，與系統在該流量下所產生的壓力損失達到平衡，因此系統的平均流量不再隨時間持續變化。Working Point 並不是風扇或系統單獨決定的性能，而是 Fan 與 System 的 Pressure–Flow characteristics 互相匹配後所形成的實際運作狀態。
+Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate 下，Fan 所能提供的壓力與 System 所需克服的壓力損失達到平衡的位置。可以發現此時的PQ曲線以及系統阻抗曲線放在一起，在穩態條件下: 風扇對流體提供機械能，而系統中的流動阻力造成機械能的耗散。其實是兩件事。因此系統的平均流量不再隨時間持續變化。Working Point 並不是風扇或系統單獨決定的性能，而是 Fan 與 System 的 Pressure–Flow characteristics 互相匹配後所形成的實際運作狀態。
 
 ## 範例：簡單數學示範
 
