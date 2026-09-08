@@ -14,7 +14,8 @@
 
 ### 靜壓 (Static Pressure) 與 全壓 (Total Pressure)
 
-壓力是垂直作用於物體表面的力，在流體裡面:
+在流體裡面，壓力包含著靜壓、動壓。也就是 Ptotal = P_static + P_velocity
+
 靜壓 P_s（Static Pressure）是流體的壓力狀態；動壓 P_v（Velocity Pressure）則與流體速度所對應的動能項有關，可表示為 (½)*ρ*v²。在低速、不可壓縮流體的簡化分析中，總壓 P_total 可表示為靜壓與動壓之和：P_total = P_s + P_v。
 > 這裡採用低速、不可壓縮流體的工程近似；若涉及可壓縮流動，Total Pressure 的定義與量測解讀需依相應的可壓縮流體模型處理。
 
