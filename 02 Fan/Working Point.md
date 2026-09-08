@@ -1,4 +1,5 @@
 ### 目錄
+
 - 前言
 - 靜壓 (Static Pressure) 與 全壓 (Total Pressure)
 - PQ 曲線與系統阻抗曲線
@@ -13,11 +14,40 @@
 我們知道了**Fan PQ**以及**System Impedance**的意義，進一步學習如何整合跟使用這兩個圖表。接下來的文章將一步步說明這兩個圖表的關係以及得到一個總結: 
 > 在一般穩定且單調的 Fan–System characteristic 下，兩條曲線的交點會對應系統的穩態工作狀態、也就是 Working Point。
 
-這個交點不是單純的數學巧合，而是代表在該流量下、風扇所提供之壓力增量與系統所需要克服的壓力損失達到平衡。
+這個交點不是單純的數學巧合，而是代表在該流量下、風扇所提供之壓力增量與系統所需要克服之壓力損失達到平衡。
 
 ### 靜壓 (Static Pressure) 與 全壓 (Total Pressure)
 
-在流體裡面，壓力包含著靜壓、動壓。也就是 Ptotal = P_static + P_velocity
+在流體力學裡面，需要區分什麼是 Statis Pressure (靜壓) 與 Velocity Pressure (動壓 / 速度壓)。定義上，對於**低速、可視為不可壓縮的流體**，可使用工程上常見的近似:
+
+
+[
+P_t \approx P_s + P_v
+]
+
+其中：
+
+[
+P_v=\frac{1}{2}\rho V^2
+]
+
+因此：
+
+(P_s)：Static Pressure，靜壓
+
+(P_v)：Velocity Pressure，速度壓
+
+(P_t)：Total Pressure，全壓
+
+(\rho)：流體密度
+
+(V)：特徵流速
+
+本文採用低速、不可壓縮流體的工程近似。若流動具有顯著可壓縮性，Total Pressure 的定義與能量關係需要使用相應的可壓縮流模型，而不能直接套用上述簡化式。
+
+
+
+
 
 靜壓 P_s（Static Pressure）是流體的壓力狀態；動壓 P_v（Velocity Pressure）則與流體速度所對應的動能項有關，可表示為 (½)*ρ*v²。在低速、不可壓縮流體的簡化分析中，總壓 P_total 可表示為靜壓與動壓之和：P_total = P_s + P_v。
 > 這裡採用低速、不可壓縮流體的工程近似；若涉及可壓縮流動，Total Pressure 的定義與量測解讀需依相應的可壓縮流體模型處理。
