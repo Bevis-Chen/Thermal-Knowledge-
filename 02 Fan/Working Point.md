@@ -10,7 +10,10 @@
   
 ### 前言
 
-我們知道了Fan PQ 以及System Impedance 的意義，進一步會使用這兩個圖表。接下來的文章將整合這兩個圖表以及最後得到結論:為什麼在一般穩定且單調的 Fan–System characteristic 下，兩條曲線的交點會對應系統的穩態工作狀態。
+我們知道了**Fan PQ**以及**System Impedance**的意義，進一步學習如何整合跟使用這兩個圖表。接下來的文章將一步步說明這兩個圖表的關係以及得到一個總結: 
+> 在一般穩定且單調的 Fan–System characteristic 下，兩條曲線的交點會對應系統的穩態工作狀態、也就是 Working Point。
+
+這個交點不是單純的數學巧合，而是代表在該流量下、風扇所提供之壓力增量與系統所需要克服的壓力損失達到平衡。
 
 ### 靜壓 (Static Pressure) 與 全壓 (Total Pressure)
 
