@@ -1,3 +1,5 @@
+# Working Point
+
 ### 目錄
 
 - 前言
@@ -115,8 +117,11 @@ P0 = 250 Pa（無流時的靜壓），k_f = 4000 (Pa·s²/m^6)（風扇模型係
 
 ## 參考資料與延伸閱讀
 
-- ASHRAE、AMCA 或風機製造商的 PQ 曲線與測試標準文件。
-- 風扇定律（Fan Laws）與管網流體力學教材。
+- **ANSI/AMCA Standard 210-25 / ASHRAE 51-25**, *Laboratory Methods of Testing Fans for Certified Aerodynamic Performance Rating*. AMCA 官方資料指出，此標準用於以一致的實驗室方法取得風扇的 airflow rate、pressure developed、power、air density、speed 與 efficiency 等性能資料。
+- **ISO 5801:2017**, *Fans — Performance testing using standardized airways*. ISO 官方資料顯示該版本於 2023 年確認仍為現行版本，並於 2025 年發布 Amendment 1。
+- **ANSI/AMCA Standard 270-23**, *Laboratory Methods of Aerodynamic Testing Fan Arrays for Rating*. 用於 Fan Array 的氣動性能測試。
+- **ISO/TR 16219:2024**, *Fans — System effects and system effect factors*. 討論標準化測試與實際系統安裝條件之間的 System Effect。
+- ASHRAE Handbook、AMCA fan-system literature，以及相關 Fluid Mechanics / Internal Flow 教科書。
 
 ***
 恐怕要一陣子之後，驀然回首、看看自己寫得文章，別有一番稚氣，一些風味，還有漏洞百出以及年少輕狂。
