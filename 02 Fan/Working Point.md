@@ -24,7 +24,6 @@
 
 在流體力學裡面，需要區分什麼是 Statis Pressure (靜壓) 與 Velocity Pressure (動壓 / 速度壓)。定義上，對於**低速、可視為不可壓縮的流體**，可使用工程上常見的近似:
 
-
 [
 P_t ≈ P_s + P_v
 ]
@@ -32,7 +31,7 @@ P_t ≈ P_s + P_v
 其中：
 
 [
-P_v=\frac{1}{2}\rho V^2
+P_v = \frac{1}{2}\rho V^2
 ]
 
 因此：
