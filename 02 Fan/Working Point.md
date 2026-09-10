@@ -52,11 +52,12 @@
 
 System Impedance Curve 想描述: 在固定系統配置下維持某一個流量所需要的壓力損失。
 
-系統有許多配置，比如: Filter、Fan inlet/outlet geometry、Heatsink、Duct、Grille、Cable obstruction、Component airflow passages 等等都有可能造成壓力損失。在工程應用中，若幾何條件與流動條件固定(參照剛剛說明的"在固定系統配置...")、壓力損失與流量的關係可以近似於
+系統有許多配置，比如: Filter、Fan inlet/outlet geometry、Heatsink、Duct、Grille、Cable obstruction、Component airflow passages 等等都有可能造成壓力損失。在工程應用中，若幾何條件與流動條件固定(參照剛剛說明的"在固定系統配置...")、壓力損失與流量的關係可以近似於 :
 
 [ΔP ≈ K * Q² ]
 
-在System Impedance Curve 圖表描述的 P 代表著壓力損失，在固定系統硬體配置及條件下，風通過系統所產生的流量與壓力損失的對應關係。在許多伺服器風道元件與管路系統中，壓力損失可近似與速度平方成正比，因此在幾何與流動條件固定時，常可將系統壓力損失近似表示為 ΔP_system ≈ (K_system) * Q²。
+我們可以從達西衛斯巴赫方程式了解壓力損失與流體速度的關係: ΔP ∝ V² (壓力損失與流體速度之平方成正比) ; 流量公式 [ Q = A * V ] 又說明 Q ∝ V (在截面積固定下流量與流體速度成正比)，所以當系統配置固定下以及工程描述可以將 壓力損失與流體之平方成正比。不過以上不是工程上流體必然的結果，若是低Reynolds Number 的流動、特殊流道、可壓縮效應、非定常流動或元件本身具有複雜非線性特性時，實際 System Impedance Curve 可能偏離簡單二次曲線。
+
 
 在本文採用的 Fan PQ 表示方式中，若縱軸定義為 Fan Static Pressure，則該曲線描述的是風扇在不同流量下所能建立的靜壓差。System Impedance Curve的P 則是指壓力損失，代表系統內部的摩擦與局部阻力等等。**System Impedance Curve 本身並不描述風扇提供多少能量，而是描述在特定系統配置下，維持不同流量所需要克服的壓力損失。** 
 
