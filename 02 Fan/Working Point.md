@@ -24,9 +24,9 @@
 
 在流體力學裡面，需要區分什麼是**Statis Pressure (靜壓)** 與 **Velocity Pressure (動壓 / 速度壓)**。定義上、對於**低速、可視為不可壓縮的流體**，可使用工程上常見的近似。若流體具有顯著可壓縮性，Total Pressure 的定義與能量關係需要使用相應的可壓縮模型，而不能直接套用上述簡化式。
 
-P_t ≈ P_s + P_v
+[P_t ≈ P_s + P_v]
 其中：
-P_v = ρ*V²/2
+[P_v = ρ*V²/2]
 
 - **P_s**：Static Pressure，靜壓
 - **P_v**：Velocity Pressure，速度壓
@@ -48,8 +48,15 @@ P_v = ρ*V²/2
 
 風量Q 接近零，風扇內部仍可能存在複雜的循環流、旋轉流與損失，而且實際風扇的 Shutoff 狀態可能伴隨顯著的非穩態流動。因此，實際性能曲線的端點仍應依風扇製造廠商與測試標準的定義解讀。
 
-**System Impedance Curve 的計算**：將實際系統（伺服器整機）放入測試，在系統前後的 Measurement Plane 上量測系統阻抗引起的壓力損失（Pressure Drop, ΔP），驗證公式 ΔP = K * Q² 中的阻抗係數 K。
-> 在System Impedance Curve 圖表描述的 P 代表著壓力損失，在固定系統硬體配置及條件下，風通過系統所產生的流量與壓力損失的對應關係。在許多伺服器風道元件與管路系統中，壓力損失可近似與速度平方成正比，因此在幾何與流動條件固定時，常可將系統壓力損失近似表示為 ΔP_system ≈ (K_system) * Q²。
+###### System Impedance Curve 的計算
+
+System Impedance Curve 想描述: 在固定系統配置下維持某一個流量所需要的壓力損失。
+
+系統有許多配置，比如: Filter、Fan inlet/outlet geometry、Heatsink、Duct、Grille、Cable obstruction、Component airflow passages 等等都有可能造成壓力損失。在工程應用中，若幾何條件與流動條件固定(參照剛剛說明的"在固定系統配置...")、壓力損失與流量的關係可以近似於
+
+[ΔP ≈ K * Q² ]
+
+在System Impedance Curve 圖表描述的 P 代表著壓力損失，在固定系統硬體配置及條件下，風通過系統所產生的流量與壓力損失的對應關係。在許多伺服器風道元件與管路系統中，壓力損失可近似與速度平方成正比，因此在幾何與流動條件固定時，常可將系統壓力損失近似表示為 ΔP_system ≈ (K_system) * Q²。
 
 在本文採用的 Fan PQ 表示方式中，若縱軸定義為 Fan Static Pressure，則該曲線描述的是風扇在不同流量下所能建立的靜壓差。System Impedance Curve的P 則是指壓力損失，代表系統內部的摩擦與局部阻力等等。**System Impedance Curve 本身並不描述風扇提供多少能量，而是描述在特定系統配置下，維持不同流量所需要克服的壓力損失。** 
 
