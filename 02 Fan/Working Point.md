@@ -48,7 +48,7 @@
 
 風量Q 接近零，風扇內部仍可能存在複雜的循環流、旋轉流與損失，而且實際風扇的 Shutoff 狀態可能伴隨顯著的非穩態流動。因此，實際性能曲線的端點仍應依風扇製造廠商與測試標準的定義解讀。
 
-###### System Impedance Curve 的計算
+##### System Impedance Curve 的計算
 
 System Impedance Curve 想描述: 在固定系統配置下維持某一個流量所需要的壓力損失。
 
@@ -60,7 +60,8 @@ System Impedance Curve 想描述: 在固定系統配置下維持某一個流量�
 
 在本文採用的 Fan PQ 表示方式中，若縱軸定義為 Fan Static Pressure，則:
 
-P_fan = P_fan(Q)
+[P_fan = P_fan(Q)]
+
 > 該曲線描述的是風扇在不同流量下所能建立的靜壓差。
 
 System Impedance Curve的P 則是指壓力損失，代表系統內部的摩擦與局部阻力等等。**System Impedance Curve 本身並不描述風扇提供多少能量，而是描述在特定系統配置下，維持不同流量所需要克服的壓力損失。** 
@@ -75,26 +76,22 @@ System Impedance Curve的P 則是指壓力損失，代表系統內部的摩擦�
 
 Fan PQ Curve 與 System Impedance Curve 雖然正是分析 Working Point 的兩個核心，但並非只要兩者的壓力單位同樣為 Pa，就能直接疊圖比較。必須確認兩者的壓力定義、流量定義、測量參考位置、測試條件，以及 Fan arrangement 與實際系統配置是否相容。
 
-##### 邊界條件
+##### 測量面（Measurement Plane）與邊界條件
 
-Fan PQ Curve 與 System Impedance Curve 並不是只要單位同樣是 Pa，就可以直接疊圖比較。必須先確認 Fan PQ 的壓力定義、System Pressure Loss 的定義、Flow Rate 的定義、Measurement Plane，以及 Fan arrangement 與實際系統配置是否相容。當這些條件成立後，兩者才可以在同一個 Pressure–Flow framework 下比較，並透過兩條曲線的交會找出 Working Point。當然，若系統只有單顆風扇、且Pressure reference plane / Fan PQ / System Impedance 等等條件可對應跟滿足，那麼此時Fan PQ 以及 System Impedance 兩條曲線可以放在同一個pressure-flow chart做比較。拿來與 System Curve 比較的，必須是「整個 fan arrangement 對系統所提供的 pressure-flow characteristic」。Fan Laws、Fan arrangement、Series / Parallel Fan，之後都會影響 Working Point。到這裡會有疑問: 「既然 Fan PQ Curve 可能使用 Static Pressure，而 System Curve 描述的是 Pressure Loss，兩者到底憑什麼能放在同一張圖？」
-
-Measurement Plane 是測試系統中被明確定義的測量截面，用來規定壓力、速度或流量等物理量「在哪裡、以什麼方式」被量測，使不同測試條件下取得的數據具有一致的參考基準。在風扇與系統阻抗測試（如 AMCA 210 或 ISO 5801 標準風洞測試）中，Measurement Plane（測量平面） 是指在測試風洞或管道系統中，專門指定用來架設傳感器並量測流體狀態（靜壓、動壓、風速）的特定截面。Measurement Plane 的位置會影響壓力定義，因此 Fan PQ 與 System Impedance 能否直接比較，不只是看單位都是 Pa，而要確認兩者的測量位置與 pressure definition 是否相容。流體在通過風扇、轉彎、縮管或障礙物時，流場是非常混亂且不均勻的（湍流與渦流）。量測結果可能受到局部速度分布、渦流與壓力梯度影響，降低量測的穩定性、代表性與可重現性。指定 Measurement Plane 的主要目的如下：
-
-- 提高量測的穩定性與可重現性：測量平面通常設置在流場經過整流（Flow Straightener）後、流動相對平穩的直管段上。
-- 定義量測參考位置與測試截面：明確定義量測位置與參考截面，使不同位置所量得的壓力與速度能夠按照測試方法進行比較或換算。
-- 標準化數據：讓不同廠商、不同實驗室量測出來的 PQ Curve 與 System Impedance Curve 具備統一的比較基準。
+Measurement Plane 是**測試系統中被明確定義的測量截面，用來規定壓力、速度或流量等物理量「在哪裡、以什麼方式」被量測**，使不同測試條件下取得的數據具有一致的參考基準。在風扇與系統阻抗測試（如 AMCA 210 或 ISO 5801 標準風洞測試）中，Measurement Plane（測量平面） 是指在測試風洞或管道系統中，專門指定用來架設傳感器並量測流體狀態（靜壓、動壓、風速）的特定截面。Measurement Plane 的位置會影響壓力定義，因此 Fan PQ 或 System Impedance 圖表的分析，要確認兩者的測量位置與 pressure definition 是否相容。流體在通過風扇、轉彎、縮管或障礙物時，流場是非常混亂且不均勻的（湍流與渦流）。量測結果可能受到局部速度分布、渦流與壓力梯度影響，降低量測的穩定性、代表性與可重現性。
 
 ### 工作點
 
-當伺服器與風扇運轉，達到穩定狀態，整機風扇提供的壓差P1以及系統損失P2達到相等。也就是
+當系統裡面的風扇運轉、流體受到風扇作用而流動，達到穩定狀態時、系統的平均流量不再增加或降低。此時:
+
 ```
 ΔP_fan(Q_WP) = ΔP_system(Q_WP)
 Q_fan = Q_system = Q_WP
 ```
-Fan PQ Curve 與 System Impedance Curve 的交點，就是在相同 Flow Rate 下，Fan 所能提供的壓力與 System 所需克服的壓力損失達到平衡的位置。可以發現此時的PQ曲線以及系統阻抗曲線放在一起，在穩態條件下: 風扇對流體提供機械能，而系統中的流動阻力造成機械能的耗散。其實是兩件事。因此系統的平均流量不再隨時間持續變化。Working Point 並不是風扇或系統單獨決定的性能，而是 Fan 與 System 的 Pressure–Flow characteristics 互相匹配後所形成的實際運作狀態。
 
-## 範例：簡單數學示範
+在同一個 Flow Rate 下，Fan 所能提供的壓力差與 System 所需克服的壓力損失恰好相等。可以發現此時的PQ曲線以及系統阻抗曲線放在一起，在穩態條件下: 風扇對流體提供機械能，而系統中的流動阻力造成機械能的耗散。其實是兩件事。因此系統的平均流量不再隨時間持續變化。Working Point 並不是風扇或系統單獨決定的性能，而是 Fan 與 System 的 Pressure–Flow characteristics 互相匹配後所形成的實際運作狀態。
+
+#### 範例：簡單數學示範
 
 假設以靜壓 Ps（單位 Pa）與流量 Q（單位 m³/s）表示，並用簡單二次模型逼近：
 風扇靜壓（近似）：P_fan(Q) = P0 - k_f * Q² ，系統壓力損失（近似）：ΔP_system(Q) = k_s * Q²，工作點滿足： P0 - k_f * Q² = k_s * Q²，
