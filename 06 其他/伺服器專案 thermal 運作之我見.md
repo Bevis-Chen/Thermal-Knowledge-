@@ -26,6 +26,7 @@ pm me ee si sit fae sales bdm marketing
   - OEM需遵循客戶條件. 
   - 定SPEC >> 初步規劃要塞多少東西或有多少發熱元 (高層或主管)
   - 有個 整機 placement 的構想: thermal architecture >> 氣冷或是那些需要水冷
+  - **而且要想要放什麼樣的CPU/DRAM/SSD/GPU/LAN-CARD**
 開案    
   - Kick off meeting 開起來    
   - 劃定 schedule >> 初步劃定EVT以及DVT 多少周
