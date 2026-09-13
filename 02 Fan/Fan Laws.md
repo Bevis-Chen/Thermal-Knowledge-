@@ -2,7 +2,16 @@
 
 
 
-
+***
+問題 1：為什麼可以 Scale？
+→ Similarity
+問題 2：為什麼 Flow 是 \(N D^3\)？
+→ 幾何尺度＋速度尺度
+問題 3：為什麼 Pressure 是 \(N^2D^2\)？
+→ 速度平方尺度與壓力/動壓尺度
+問題 4：為什麼 Power 是 \(N^3D^5\)？
+→ Flow × Pressure 的尺度關係
+***
 ```
 Fan Laws
 │
