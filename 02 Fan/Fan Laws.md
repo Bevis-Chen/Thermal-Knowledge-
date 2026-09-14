@@ -17,6 +17,7 @@ Fan Laws 描述的不是「風扇有多少 CFM」，而是風扇的幾何尺寸�
 
 [https://fluidflowinfo.com/fan-performance-and-fan-laws/]
 
+Fan Laws 是描述一個定律或是規則，用來預測固定系統內的風扇性能。
 
 
 
