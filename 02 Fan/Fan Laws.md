@@ -11,8 +11,14 @@
 Fan Laws 描述的不是「風扇有多少 CFM」，而是風扇的幾何尺寸、轉速與空氣密度如何共同決定其可提供的流量、壓力與功率尺度；而 PQ Curve 則把這些能力具體呈現在風扇的性能邊界上。
 
 ### 風扇尺寸
+***
 
 
+
+
+
+***
+# 筆記一下
 ###### Fan Laws & Fan Performance Explained
 
 [https://fluidflowinfo.com/fan-performance-and-fan-laws/]
