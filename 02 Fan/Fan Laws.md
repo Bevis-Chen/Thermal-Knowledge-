@@ -39,6 +39,8 @@ Fan Laws 是描述一個定律或是規則，用來預測固定系統內的風�
 
 
 
+***
+喃喃低語 : fan laws也適用 Pump(CDU水冷機)、也就是 Pump Laws
 
 
 
