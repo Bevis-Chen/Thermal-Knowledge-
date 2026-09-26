@@ -51,8 +51,8 @@ Fan Laws不是萬靈丹，解決所有跟風扇有關的議題。
 
 ### Fan Laws 的推導與物理意義
 
-- Similarity Condition 
-
+- Similarity Condition： 風扇的互相放大或縮小的部分在於外框尺寸、風扇轉速、還有空氣的密度。
+- Geometry Similarty: 風扇的尺寸
 
 
 
@@ -74,12 +74,6 @@ Fan Laws 是描述一個定律或是規則，用來預測固定系統內的風�
 可以知道 一個風扇的PQ之後，推估其他rpm 的PQ
 
 其實蠻神的
-
-
-
-
-
-
 
 
 
