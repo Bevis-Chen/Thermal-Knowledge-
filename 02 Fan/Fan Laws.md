@@ -53,6 +53,11 @@ Fan Laws不是萬靈丹，解決所有跟風扇有關的議題。
 
 - Similarity Condition： 風扇的互相放大或縮小的部分在於外框尺寸、風扇轉速、還有空氣的密度。
 - Geometry Similarty: 風扇的尺寸
+- Reynolds Number: 雷諾數是個無因次的常數，與流體密度、流體黏滯係數、管路長度、流體速度有關。
+
+### Mach Number 馬赫數
+
+### Fan Laws 與 PQ Curve
 
 
 
