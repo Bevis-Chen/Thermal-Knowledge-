@@ -35,6 +35,12 @@
 - Flow Rate ： 風扇本體的流量可以表示為 Q = A * V ，這個公式的含義是體積流率可以由通過某一截面的平均速度與截面積的乘積。
 - Pressure ： 風扇能夠建立的壓差的能力，其中要注意的是壓差是指風扇吸入風與推出風的兩側之壓力差。（至於全壓，意思是因為有額外的機械能所增加的動壓再加上靜壓。）
 - Power ： 提供風扇轉動的電功率，直接影響風扇轉速。
+```
+實際上至少要區分：
+Electrical Power> Motor>Shaft Power> Fan aerodynamic Power
+而且風扇實際 RPM 是由：
+motor torque、load torque、controller、operating condition
+```
 
 ### Fan PQ Curve
 
