@@ -37,7 +37,7 @@
 - Power ： 提供風扇轉動的電功率，直接影響風扇轉速。
 ```
 實際上至少要區分：
-Electrical Power> Motor> Shaft Power> Fan aerodynamic Power
+Electrical Power> Motor馬達功率> Shaft Power軸功率> Fan aerodynamic Power
 
 而且風扇實際 RPM 是由：
 motor torque、load torque、controller、operating condition
@@ -69,7 +69,7 @@ Fan Laws不是萬靈丹，可以解決所有跟風扇有關的議題。
 
 ### Fan Laws 與 PQ Curve
 
-
+可以作為在適當條件下，當得到一個風扇在固定轉速下的PQ，進而推估這個風扇其他轉速的PQ
 
 
 ***
