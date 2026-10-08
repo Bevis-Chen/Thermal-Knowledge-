@@ -2,27 +2,17 @@
 
 ## 目錄
 
-- 前言
-- Fan Performance 風扇性能
-  - Flow Rate
-  - Pressure
-  - Power
-- Fan PQ Curve
-- 為什麼需要 Fan Laws？
-  - Fan Laws
-  - Speed
-  - Fan Diameter
-  - Air Density
-- Fan Laws 的推導與物理意義
-  - Similarity Conditions
-  - Geometric Similarity
-  - Reynolds Number
-- Mach Number
-- Fan Laws 與 PQ Curve
-- Fan Laws 與 System Impedance
-- Fan Laws 與 Working Point
-- Server Fan 的實務應用
-- 適用限制與注意事項
+Fan Laws
+1. 前言：我為什麼需要 Fan Laws？
+2. Fan PQ Curve 告訴我們什麼？
+3. 問題出現：如果條件改變呢？
+4. Fan Laws 出現
+5. 先做最簡單的：同一顆 Fan，不同 RPM
+6. 再進入不同尺寸
+7. Similarity 到底是什麼？
+8. Fan Laws 與 PQ Curve
+9. Fan Laws + System Impedance
+10. Server 實務
 
 ### 前言 
 
