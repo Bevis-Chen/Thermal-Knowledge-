@@ -84,3 +84,7 @@ Fan Laws
 
 因此，當轉速由 10,000 RPM 降至 9,000 RPM 時，流量尺度為原來的 90%，壓力尺度為原來的 81%。將原始 PQ Curve 上對應的流量與壓力依照上述比例轉換，即可估算新的 PQ Curve。然而，風扇的 PWM Duty 是控制訊號，不一定與 RPM 呈線性關係。因此，若要建立不同 Duty 下的 PQ Curve，必須先取得或量測 Duty 與實際 RPM 的對應關係，再利用 Fan Laws 進行估算。推估曲線仍應在適當條件下以實測資料驗證。
 
+### Fan Laws + System Impedance
+
+
+
