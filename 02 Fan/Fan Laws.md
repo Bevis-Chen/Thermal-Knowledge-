@@ -7,12 +7,12 @@ Fan Laws
 2. Fan PQ Curve 告訴我們什麼？
 3. 問題出現：如果條件改變呢？
 4. Fan Laws 出現
-5. 先做最簡單的：同一顆 Fan，不同 RPM
-6. 再進入不同尺寸
+5. 同一顆 Fan，不同 RPM
+6. 不同尺寸的 FAN 
 7. Similarity 到底是什麼？
 8. Fan Laws 與 PQ Curve
 9. Fan Laws + System Impedance
-10. Server 實務
+10. 延伸: Server 實務
 
 ### 前言 
 
